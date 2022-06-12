@@ -10,6 +10,9 @@ import ThemeSwitch from '../components/ThemeSwitch'
 import NLink from 'next/link'
 import dayjs from 'dayjs'
 import MissionItems from '@/components/MissionItems'
+import Image from 'next/image'
+import acscan from '../public/static/images/partners/acscan.png'
+import aha from '../public/static/images/partners/aha.png'
 let customParseFormat = require('dayjs/plugin/customParseFormat')
 dayjs.extend(customParseFormat)
 
@@ -18,7 +21,7 @@ upcomingTopics.forEach((e, key) => {
   if (dayjs().isBefore(dayjs(e.date, 'M/YY'))) {
     topics.push(
       <div
-        className="h-auto w-64 whitespace-nowrap rounded-lg bg-gray-100 px-4 py-2 drop-shadow-md dark:bg-gray-800"
+        className="h-auto w-64 whitespace-nowrap rounded-lg bg-gray-100 px-4 py-2 drop-shadow-md dark:bg-[#2b2929]"
         key={key}
       >
         <h1 className="text-xl font-semibold text-black dark:text-white">{e.name}</h1>
@@ -120,8 +123,15 @@ const Home = () => {
                 <span className="bg-gradient-to-tr from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
                   Medical Seeds
                 </span>{' '}
-                is a organization led by high school students that aims to promote scientific and
-                medical knowledge. Apply below to join the team!
+                is an organization led by high school students that aims to promote scientific and
+                medical knowledge. Apply below to join{' '}
+                <Link
+                  className="bg-gradient-to-tr from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent"
+                  href={'/team'}
+                >
+                  the team
+                </Link>
+                !
               </p>
             </div>
             <Link href={'https://forms.gle/QhEee9v2BiszeenM8'}>
@@ -135,20 +145,31 @@ const Home = () => {
                 We're always looking for ways to{' '}
                 <span className="bg-gradient-to-bl from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
                   expand our outreach
-                </span>
-                . If you run a club/organization and are interested, feel free to apply below.{' '}
+                </span>{' '}
+                and increase visibility. If you run a club or organization, feel free to apply
+                below.{' '}
               </p>
             </div>
-            <Link href={'https://forms.gle/QhEee9v2BiszeenM8'}>
+            <Link href={'https://forms.gle/oPic8fVadWLP6u9i6'}>
               <div className="w-min whitespace-nowrap rounded-lg bg-gradient-to-tr from-[#0F3443] to-[#34E89E] px-6 py-3 text-lg font-semibold text-gray-50 shadow-md shadow-[#0F3443] transition-[3s] hover:opacity-75">
                 Apply Now
               </div>
             </Link>
             <div>
               <h1 className="mb-2 text-2xl font-extrabold">Proud partners</h1>
+              <div className="flex flex-col items-center rounded-2xl bg-white drop-shadow-lg">
+                <div className="grid grid-flow-col">
+                  <Link href="https://www.fightcancer.org/" className="h-min w-36">
+                    <Image src={acscan}></Image>
+                  </Link>
+                  <Link href="https://www.heart.org/" className="h-min w-36">
+                    <Image src={aha}></Image>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
-          {/*<Footer />*/}
+          <Footer />
         </div>
       </SectionContainer>
     </>
@@ -156,11 +177,3 @@ const Home = () => {
 }
 
 export default Home
-
-/*We're an organization comprised of high school students who believe that science and
-              medical knowledge are{' '}
-              <span className="bg-gradient-to-tl from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
-                essential to leading a healthy life
-              </span>{' '}
-              and understanding the world around you. <br />
-              <br />*/

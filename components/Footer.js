@@ -3,6 +3,10 @@ import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 
 export default function Footer() {
+  const startDateObj = new Date('January 1, 2022')
+  const currentDateObj = new Date()
+  const startYear = startDateObj.getFullYear()
+  const currentYear = currentDateObj.getFullYear()
   return (
     <footer>
       <div className="mt-16 flex flex-col items-center">
@@ -14,17 +18,16 @@ export default function Footer() {
           <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="6" />
           <SocialIcon kind="twitter" href={siteMetadata.twitter} size="6" />
         </div>
-        <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
-          <div>{siteMetadata.author}</div>
-          <div>{` • `}</div>
-          <div>{`© ${new Date().getFullYear()}`}</div>
-          <div>{` • `}</div>
-          <Link href="/">{siteMetadata.title}</Link>
+        <div className="mb-2 flex text-sm text-gray-500 dark:text-gray-400">
+          <div>
+            &copy; {startYear == currentYear ? currentYear : `${startYear}-${currentYear}`}{' '}
+            {siteMetadata.author}
+          </div>
         </div>
-        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
-            Tailwind Nextjs Theme
-          </Link>
+        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400 text-center">
+          No part of this website may be reproduced or commercialized in any manner without prior
+          written permission.{" "}
+          <Link href="/license" className="underline">Learn More.</Link>
         </div>
       </div>
     </footer>
