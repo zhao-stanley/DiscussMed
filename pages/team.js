@@ -115,8 +115,8 @@ export default function Team() {
             <div className="flex flex-col gap-1">
               <h1 className="text-xl font-semibold">Maxx Yung</h1>
               <div className="flex flex-row gap-1 whitespace-nowrap">
-                <span className="w-min rounded-2xl bg-gradient-to-tl  from-red-800 to-red-400 px-2 py-1 text-xs text-white">
-                  Community Outreach
+                <span className="w-min rounded-2xl bg-gradient-to-tl from-purple-800 to-purple-400 px-2 py-1 text-xs text-white">
+                  Content Writer
                 </span>
               </div>
             </div>
