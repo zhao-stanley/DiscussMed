@@ -1,8 +1,14 @@
 import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
+import countapi from 'countapi-js'
+import { useEffect } from 'react'
 
 export default function Footer() {
+  useEffect(() => {
+    //countapi.hit('medical-seeds', '6727e3db-da30-4db1-b0c7-69cf04b144ad').then((result) => { console.log(result.value) });
+  })
+
   const startDateObj = new Date('January 1, 2022')
   const currentDateObj = new Date()
   const startYear = startDateObj.getFullYear()
@@ -24,10 +30,12 @@ export default function Footer() {
             {siteMetadata.author}
           </div>
         </div>
-        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400 text-center">
+        <div className="mb-8 text-center text-sm text-gray-500 dark:text-gray-400">
           No part of this website may be reproduced or commercialized in any manner without prior
-          written permission.{" "}
-          <Link href="/license" className="underline">Learn More.</Link>
+          written permission.{' '}
+          <Link href="/license" className="underline">
+            Learn More.
+          </Link>
         </div>
       </div>
     </footer>

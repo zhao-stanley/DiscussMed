@@ -1,52 +1,52 @@
 const upcomingTopics = [
   {
-    date: '7/22',
-    name: `Sickle Cell Anemia`,
-  },
-  {
-    date: '8/22',
-    name: `ADHD`,
-  },
-  {
-    date: '9/22',
-    name: `Glaucoma`,
-  },
-  {
-    date: '10/22',
-    name: `Sarcoma`,
-  },
-  {
-    date: '11/22',
-    name: `Schizophrenia`,
-  },
-  {
-    date: '12/22',
-    name: `Breast Cancer`,
-  },
-  {
     date: '1/23',
-    name: `Alzheimer's`,
+    name: `Diabetes`,
   },
   {
     date: '2/23',
-    name: `Autism`,
+    name: `Cystic fibrosis`,
   },
   {
     date: '3/23',
-    name: `ALS`,
+    name: `Celiac`,
   },
   {
     date: '4/23',
-    name: `Heart Disease`,
+    name: `Lupus`,
   },
   {
     date: '5/23',
-    name: `Multiple Sclerosis`,
+    name: `Hepatitis`,
   },
   {
     date: '6/23',
-    name: `AIDS`,
+    name: `Scoliosis`,
   },
+  {
+    date: '7/22',
+    name: `Arthritis`,
+  },
+  {
+    date: '8/22',
+    name: `Psoriasis`,
+  },
+  {
+    date: '9/22',
+    name: `Sepsis`,
+  },
+  {
+    date: '10/22',
+    name: `Cerebral Palsy`,
+  },
+  {
+    date: '11/22',
+    name: `Stomach cancer`,
+  },
+  {
+    date: '12/22',
+    name: `Crohn’s`,
+  }
 ]
 
-module.exports = upcomingTopics
+export default upcomingTopics

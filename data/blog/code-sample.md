@@ -1,38 +1,22 @@
 ---
 title: Sample .md file
-date: '2016-03-08'
+date: '2022-01-01'
 tags: ['markdown', 'code', 'features']
 draft: false
-summary: Example of a markdown file with code blocks and syntax highlighting
+summary: Example of a markdown file with code blocks and syntax highlighting (if the content writers want to change the look of their text)
 ---
 
-A sample post with markdown.
+Use these if you'd like. Probably won't be used but nice to have here.
 
 ## Inline Highlighting
 
-Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
+Example of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 ## Code Blocks
 
-Some Javascript code
+Some Javascript code to spice up the text
 
 ```javascript
-var num1, num2, sum
-num1 = prompt('Enter first number')
-num2 = prompt('Enter second number')
-sum = parseInt(num1) + parseInt(num2) // "+" means "add"
-alert('Sum = ' + sum) // "+" means combine into a string
-```
-
-Some Python code 🐍
-
-```python
-def fib():
-    a, b = 0, 1
-    while True:            # First iteration:
-        yield a            # yield 0 to start with and then
-        a, b = b, a + b    # a will now be 1, and b will also be 1, (0 + 1)
-
-for index, fibonacci_number in zip(range(10), fib()):
-     print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
+let stanley = "Web Developer";
+console.log(stanley === "Web Developer"); //returns true!
 ```

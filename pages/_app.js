@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }) {
         <link rel="manifest" href="/img/site.webmanifest" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="title" content="Medical Seeds" />
-        <meta name="theme-color" content="#2aad77" />
+        <meta name="theme-color" content="#14BA86" />
         <meta
           name="description"
           content="Medical Seeds is an organization led by high school students that aims to promote scientific and medical knowledge."
@@ -62,7 +62,7 @@ export default function App({ Component, pageProps }) {
         <link rel="manifest" href="/img/site.webmanifest" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="title" content="Medical Seeds" />
-        <meta name="theme-color" content="#2aad77" />
+        <meta name="theme-color" content="#14BA86" />
         <meta
           name="description"
           content="Medical Seeds is an organization led by high school students that aims to promote scientific and medical knowledge."
