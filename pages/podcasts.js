@@ -13,14 +13,16 @@ export default function Podcasts() {
             Podcasts
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            If you're ever on the go, and you feel like learning more about a specific disease, take a listen to one of these podcasts! We've curated an extensive list of podcasts to listen to while you're on the go.
+            If you're ever on the go, and you feel like learning more about a specific disease, take
+            a listen to one of these podcasts! We've curated an extensive list of podcasts to listen
+            to while you're on the go.
           </p>
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
             {podcastData.map((d) => (
               <Card
-              text={"Listen now"}
+                text={'Listen now'}
                 key={d.title}
                 title={d.title}
                 description={d.description}

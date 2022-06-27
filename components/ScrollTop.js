@@ -19,13 +19,15 @@ const ScrollTop = () => {
 
   return (
     <div
-      className={`fixed z-30 right-8 bottom-8 hidden flex-col gap-3 ${show ? 'md:flex' : 'md:hidden'}`}
+      className={`fixed right-8 bottom-8 z-30 hidden flex-col gap-3 ${
+        show ? 'md:flex' : 'md:hidden'
+      }`}
     >
       <button
         aria-label="Scroll To Top"
         type="button"
         onClick={handleScrollTop}
-        className="rounded-full bg-gradient-to-tl from-[#0F3443] to-[#34E89E] p-2 text-gray-200 hover:scale-110 transition-[3s] active:scale-90"
+        className="rounded-full bg-gradient-to-tl from-[#0F3443] to-[#34E89E] p-2 text-gray-200 transition-[3s] hover:scale-110 active:scale-90"
       >
         <svg className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
           <path

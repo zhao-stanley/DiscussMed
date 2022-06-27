@@ -11,7 +11,7 @@ const TeamMember = () => {
     <ul className="grid h-auto w-full grid-cols-1 gap-6 sm:w-auto sm:grid-cols-2 xl:grid-cols-3">
       {teamList.map((e, key) => (
         <li
-          className="flex h-auto w-auto flex-row items-center gap-3 rounded-lg dark:bg-gray-100 p-4 drop-shadow-lg bg-[#2b2929]"
+          className="flex h-auto w-auto flex-row items-center gap-3 rounded-lg bg-[#2b2929] p-4 drop-shadow-lg dark:bg-gray-100"
           key={key}
         >
           <div className="relative z-0 h-24 w-24 flex-shrink-0 overflow-hidden rounded-full">
@@ -24,7 +24,7 @@ const TeamMember = () => {
               src={e.img}
             />
           </div>
-          <div className="flex flex-col gap-1 select-none">
+          <div className="flex select-none flex-col gap-1">
             <h1 className="text-xl font-semibold text-white dark:text-black">{e.name}</h1>
             <div className="flex flex-row gap-1 whitespace-nowrap">
               <span

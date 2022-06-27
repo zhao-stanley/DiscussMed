@@ -74,7 +74,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         <dt className="sr-only">Name</dt>
                         <dd className="text-gray-900 dark:text-gray-100">{author.name}</dd>
                         <dt className="sr-only">Role</dt>
-                        <dd className={`text-sm text-gray-600 dark:text-gray-300`}>{author.occupation}</dd>
+                        <dd className={`text-sm text-gray-600 dark:text-gray-300`}>
+                          {author.occupation}
+                        </dd>
                       </dl>
                     </li>
                   ))}

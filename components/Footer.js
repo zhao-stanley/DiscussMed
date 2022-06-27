@@ -3,11 +3,11 @@ import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 import countapi from 'countapi-js'
 import { useEffect } from 'react'
-const token = process.env.NEXT_PUBLIC_COUNTAPI;
+const token = process.env.NEXT_PUBLIC_COUNTAPI
 
 export default function Footer() {
   useEffect(() => {
-    countapi.hit('discussmed.org', token)//.then((result) => { console.log(result.value) });
+    countapi.hit('discussmed.org', token) //.then((result) => { console.log(result.value) });
   })
 
   const startDateObj = new Date('January 1, 2022')
@@ -42,7 +42,10 @@ export default function Footer() {
         <div className="mb-8 text-center text-sm text-gray-500 dark:text-gray-400">
           No part of this website may be reproduced or commercialized in any manner without prior
           written permission.{' '}
-          <Link href="https://github.com/zhao-stanley/discussmed/blob/main/LICENSE" className="underline">
+          <Link
+            href="https://github.com/zhao-stanley/discussmed/blob/main/LICENSE"
+            className="underline"
+          >
             Learn More.
           </Link>
         </div>

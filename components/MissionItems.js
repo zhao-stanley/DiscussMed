@@ -43,7 +43,8 @@ const MissionItems = () => {
             <h1 className="text-xl font-bold xl:text-2xl">Interviews w/ Experts</h1>
           </div>
           <p className="text-gray-300 dark:text-gray-900 xl:text-lg">
-            Listen to recorded interviews with medical professionals about different diseases/disorders.
+            Listen to recorded interviews with medical professionals about different
+            diseases/disorders.
           </p>
         </div>
         <div className="flex flex-col gap-2">

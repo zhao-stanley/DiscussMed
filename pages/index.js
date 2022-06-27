@@ -37,22 +37,22 @@ upcomingTopics.forEach((e, key) => {
   if (dayjs().isSame(dayjs(e.date, 'M/YY'), 'month')) {
     topics.push(
       <div
-        className="h-auto w-64 whitespace-nowrap rounded-lg dark:bg-gray-50 px-4 py-2 drop-shadow-md bg-[#2b2929]"
+        className="h-auto w-64 whitespace-nowrap rounded-lg bg-[#2b2929] px-4 py-2 drop-shadow-md dark:bg-gray-50"
         key={key}
       >
-        <h1 className="text-xl font-semibold dark:text-black text-white">{e.name}</h1>
-        <h1 className="dark:text-gray-900 text-gray-100">Current topic!</h1>
+        <h1 className="text-xl font-semibold text-white dark:text-black">{e.name}</h1>
+        <h1 className="text-gray-100 dark:text-gray-900">Current topic!</h1>
       </div>
     )
   }
   if (dayjs().isBefore(dayjs(e.date, 'M/YY'))) {
     topics.push(
       <div
-        className="h-auto w-64 whitespace-nowrap rounded-lg dark:bg-gray-50 px-4 py-2 drop-shadow-md bg-[#2b2929]"
+        className="h-auto w-64 whitespace-nowrap rounded-lg bg-[#2b2929] px-4 py-2 drop-shadow-md dark:bg-gray-50"
         key={key}
       >
-        <h1 className="text-xl font-semibold dark:text-black text-white">{e.name}</h1>
-        <h1 className="dark:text-gray-900 text-gray-100">
+        <h1 className="text-xl font-semibold text-white dark:text-black">{e.name}</h1>
+        <h1 className="text-gray-100 dark:text-gray-900">
           {dayjs(e.date, 'M/YY').format('MMMM YYYY')}
         </h1>
       </div>
@@ -175,7 +175,7 @@ const Home = ({ posts }) => {
             <MissionItems />
             <br />
             <br />
-            <div className="flex flex-col gap-2" id='topics'>
+            <div className="flex flex-col gap-2" id="topics">
               <h1 className="text-3xl font-bold leading-9 tracking-tight xl:text-4xl">
                 Upcoming Topics
               </h1>
@@ -260,9 +260,7 @@ const Home = ({ posts }) => {
                 </span>{' '}
                 is an organization led by high school students that aims to promote scientific and
                 medical knowledge. Apply below to join{' '}
-                <span
-                  className="bg-gradient-to-tr from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent"
-                >
+                <span className="bg-gradient-to-tr from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
                   the team
                 </span>
                 !
@@ -315,7 +313,10 @@ const Home = ({ posts }) => {
                 </div>
               </div>
             </div>
-            <div className="rounded-3xl bg-gradient-to-tl from-gray-50 to-white p-6 shadow-md dark:from-[#212121] dark:to-[#0f0f0f] 2xl:p-12" id="contact">
+            <div
+              className="rounded-3xl bg-gradient-to-tl from-gray-50 to-white p-6 shadow-md dark:from-[#212121] dark:to-[#0f0f0f] 2xl:p-12"
+              id="contact"
+            >
               <h1 className="mb-2 text-3xl font-extrabold leading-9 tracking-tight md:text-4xl xl:text-5xl">
                 Contact Us
               </h1>
