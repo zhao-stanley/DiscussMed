@@ -3,10 +3,11 @@ import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 import countapi from 'countapi-js'
 import { useEffect } from 'react'
+const token = process.env.NEXT_PUBLIC_COUNTAPI;
 
 export default function Footer() {
   useEffect(() => {
-    //countapi.hit('discussmed.org', '6fc8fa68-bbd9-4758-89f5-f07fa71ded0c').then((result) => { console.log(result.value) });
+    //countapi.hit('discussmed.org', token).then((result) => { console.log(result.value) });
   })
 
   const startDateObj = new Date('January 1, 2022')
