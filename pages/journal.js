@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '@/components/Link'
 import siteMetadata from '@/data/siteMetadata'
 import publishedResearch from '@/data/publishedResearch'
 import symposiumResearch from '@/data/symposiumResearch'
@@ -33,12 +33,31 @@ export default function Journal() {
             modeling project-- there is no expected or required length. As it is understood that
             many high schoolers do not have write ups, presentations will also be accepted of which
             will be published in the{' '}
-            <span className="bg-gradient-to-bl from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
-              High School Journal of Biological Sciences Symposium
-            </span>
-            . If you have any questions, feel free to{' '}
-            <Link href="/#contact">
+            <Link href="#sr">
+              <span className="bg-gradient-to-bl from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
+                High School Journal of Biological Sciences Symposium
+              </span>
+            </Link>
+            . <br />
+            <br />
+            To submit your research for either the journal or symposium, access the form{' '}
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdkQ9JXiyOGYepNyEg2j8CSZMMgcdATBZxMJJZ8fr9QSZEnjQ/viewform">
               <span className="cursor-pointer bg-gradient-to-bl from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
+                here.{' '}
+              </span>
+            </Link>
+            All research for both the journal and symposium for the next issue will be due on
+            <span className="bg-gradient-to-br from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
+              {' '}
+              January 1st,{' '}
+            </span>
+            which will be published on{' '}
+            <span className="bg-gradient-to-bl from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
+              January 15th.{' '}
+            </span>
+            If you have any questions, feel free to{' '}
+            <Link href="/#contact">
+              <span className="cursor-pointer bg-gradient-to-tr from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
                 contact us
               </span>
             </Link>
@@ -69,7 +88,7 @@ export default function Journal() {
           </h1>
           {sortedPR.map((d, k) => (
             <div className="py-6" key={k}>
-              <h2 className="text-xl pb-2 font-semibold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-3xl md:leading-14">
+              <h2 className="pb-2 text-xl font-semibold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-3xl md:leading-14">
                 High School Journal of Biological Sciences Issue {romans.romanize(d.issue)}
               </h2>
               <div className="-m-4 flex flex-wrap">
@@ -96,7 +115,7 @@ export default function Journal() {
           </h1>
           {sortedSR.map((d, k) => (
             <div className="py-6" key={k}>
-              <h2 className="text-xl pb-2 font-semibold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-3xl md:leading-14">
+              <h2 className="pb-2 text-xl font-semibold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-3xl md:leading-14">
                 High School Journal of Biological Sciences Symposium Issue{' '}
                 {romans.romanize(d.issue)}
               </h2>
