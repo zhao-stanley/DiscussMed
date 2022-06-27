@@ -18,7 +18,7 @@ const isSocket = process.env.SOCKET
 export default function App({ Component, pageProps }) {
   console.log(`Component Name: ${Component.name}`)
   console.log(`Component is Y?: ${Component.name === 'Y'}`)
-  return Component.name === 'Home' ? (
+  return Component.name === 'Home' || Component.name === 'Y' ? (
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
         <title>discussmed</title>
