@@ -2,6 +2,7 @@ import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '../public/static/images/discussmed.svg'
 import Link from '../components/Link'
+import { PageSEO } from '@/components/SEO'
 import SectionContainer from '../components/SectionContainer'
 import upcomingTopics from '@/data/upcomingTopics'
 import Footer from '../components/Footer'
@@ -63,6 +64,7 @@ const Home = ({ posts }) => {
   return (
     <>
       <ScrollTop />
+      <PageSEO title={`Home - ${siteMetadata.author}`} description={siteMetadata.description} />
       <SectionContainer cn={'h-screen'}>
         <div className="flex h-auto flex-col items-center">
           <header className="absolute z-10 flex w-full items-center justify-between py-6 px-4 sm:max-w-[720px] sm:px-0 xl:max-w-5xl">
