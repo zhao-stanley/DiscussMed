@@ -41,7 +41,7 @@ export default function Footer() {
         <div className="mb-8 text-center text-sm text-gray-500 dark:text-gray-400">
           No part of this website may be reproduced or commercialized in any manner without prior
           written permission.{' '}
-          <Link href="/license" className="underline">
+          <Link href="https://github.com/zhao-stanley/discussmed/blob/main/LICENSE" className="underline">
             Learn More.
           </Link>
         </div>
