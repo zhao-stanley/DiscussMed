@@ -1,11 +1,11 @@
 <div id="top"></div>
-<!-- PROJECT LOGO -->
+<img src="/public/static/images/discussmed.svg"/>
 <br />
 <div align="center">
-  <h3 align="center">Medical Seeds</h3>
+  <h3 align="center">discussmed</h3>
 
   <p align="center">
-    Making disease-related knowledge more accessible for everyone.
+    Making disease and disorder-related knowledge more accessible for everyone.
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>

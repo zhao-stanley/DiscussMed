@@ -1,0 +1,53 @@
+---
+title: Math Template
+date: '1/1/22'
+tags: ['math', 'features']
+authors: ['stanley']
+draft: true
+summary: 'Info on using math in your blog posts.'
+---
+
+# Introduction
+
+Hello content writers, if you need to use math in your blog posts, you can read this for help. (the 1 is a footnote)
+^[TeX functions can be found in the [KaTeX documentation](https://katex.org/docs/supported.html)]
+
+Inline math symbols can be included by enclosing the term between the `$` symbol.
+
+Math code blocks are denoted by `$$`.
+
+### Examples of math notation you can achieve
+
+$$
+\mathbf{Y} = \left[\begin{array}
+  {c}
+  y_1 \\
+  . \\
+  . \\
+  . \\
+  y_n
+\end{array}\right]
+$$
+
+$$
+\mathbf{X} = \left[\begin{array}
+  {ccccc}
+  x_{11} & . & . & . & x_{1k} \\
+  . & . & . & . & .  \\
+  . & . & . & . & .  \\
+  . & . & . & . & .  \\
+  x_{n1} & . & . & . & x_{nn}
+\end{array}\right] =
+\left[\begin{array}
+  {c}
+  \mathbf{x}'_1 \\
+  . \\
+  . \\
+  . \\
+  \mathbf{x}'_n
+\end{array}\right]
+$$
+
+$$
+Q = \sum_{i=1}^{n}{u_i^2} = \sum_{i=1}^{n}{(y_i - \mathbf{x}'_i\beta)^2} = (Y-X\beta)'(Y-X\beta)
+$$

@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 
 export default function Footer() {
   useEffect(() => {
-    //countapi.hit('medical-seeds', '6727e3db-da30-4db1-b0c7-69cf04b144ad').then((result) => { console.log(result.value) });
+    //countapi.hit('discussmed.org', '6fc8fa68-bbd9-4758-89f5-f07fa71ded0c').then((result) => { console.log(result.value) });
   })
 
   const startDateObj = new Date('January 1, 2022')
@@ -19,15 +19,23 @@ export default function Footer() {
         <div className="mb-3 flex space-x-4">
           <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size="6" />
           <SocialIcon kind="github" href={siteMetadata.github} size="6" />
+          {/*
           <SocialIcon kind="facebook" href={siteMetadata.facebook} size="6" />
           <SocialIcon kind="youtube" href={siteMetadata.youtube} size="6" />
           <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="6" />
           <SocialIcon kind="twitter" href={siteMetadata.twitter} size="6" />
+          */}
         </div>
         <div className="mb-2 flex text-sm text-gray-500 dark:text-gray-400">
           <div>
             &copy; {startYear == currentYear ? currentYear : `${startYear}-${currentYear}`}{' '}
             {siteMetadata.author}
+            {' | Logo by '}
+            <Link href={'https://www.linkedin.com/in/andreamediaz/'}>
+              <span className="bg-gradient-to-tl from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
+                Andrea Diaz
+              </span>
+            </Link>
           </div>
         </div>
         <div className="mb-8 text-center text-sm text-gray-500 dark:text-gray-400">

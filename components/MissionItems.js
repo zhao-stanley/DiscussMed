@@ -2,11 +2,11 @@ const MissionItems = () => {
   return (
     <>
       <div className="mt-8 flex flex-col justify-between gap-6">
-        <div className="flex flex-col gap-2 xl">
+        <div className="xl flex flex-col gap-2">
           <div className="flex flex-row items-center gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-auto w-12 xl:w-[3.25rem] rounded-xl bg-gradient-to-br from-red-600 to-orange-500 p-[0.625rem] text-white"
+              className="h-auto w-12 rounded-xl bg-gradient-to-tl from-[#1f6c8a] to-[#34E89E] p-[0.625rem] text-white xl:w-[3.25rem]"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -21,14 +21,36 @@ const MissionItems = () => {
             <h1 className="text-xl font-bold xl:text-2xl">Topic Driven Blogs</h1>
           </div>
           <p className="text-gray-300 dark:text-gray-900 xl:text-lg">
-            Read our blog posts on different diseases every week.
+            Read our blog posts on certain diseases/disorders every week.
           </p>
         </div>
         <div className="flex flex-col gap-2">
           <div className="flex flex-row items-center gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-auto w-12 xl:w-[3.25rem] rounded-xl bg-gradient-to-br from-blue-400 to-blue-800 p-[0.625rem] text-white"
+              className="h-auto w-12 rounded-xl bg-gradient-to-br from-red-400 to-red-800 p-[0.625rem] text-white xl:w-[3.25rem]"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"
+              />
+            </svg>
+            <h1 className="text-xl font-bold xl:text-2xl">Interviews w/ Experts</h1>
+          </div>
+          <p className="text-gray-300 dark:text-gray-900 xl:text-lg">
+            Listen to recorded interviews with medical professionals about different diseases/disorders.
+          </p>
+        </div>
+        <div className="flex flex-col gap-2">
+          <div className="flex flex-row items-center gap-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-auto w-12 rounded-xl bg-gradient-to-br from-blue-400 to-blue-800 p-[0.625rem] text-white xl:w-[3.25rem]"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -40,17 +62,17 @@ const MissionItems = () => {
                 d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"
               />
             </svg>
-            <h1 className="text-xl font-bold xl:text-2xl">Expert podcasts</h1>
+            <h1 className="text-xl font-bold xl:text-2xl">Curated podcasts</h1>
           </div>
           <p className="text-gray-300 dark:text-gray-900 xl:text-lg">
-            Listen to podcasts by medical professionals about different diseases.
+            Listen to a variety of podcasts focusing on different diseases/disorders.
           </p>
         </div>
         <div className="flex flex-col gap-2">
           <div className="flex flex-row items-center gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-auto w-12 xl:w-[3.25rem] rounded-xl bg-gradient-to-br from-purple-500 to-blue-800 p-[0.625rem] text-white"
+              className="h-auto w-12 rounded-xl bg-gradient-to-br from-purple-500 to-blue-800 p-[0.625rem] text-white xl:w-[3.25rem]"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -65,14 +87,14 @@ const MissionItems = () => {
             <h1 className="text-xl font-bold xl:text-2xl">Numerous resources</h1>
           </div>
           <p className="text-gray-300 dark:text-gray-900 xl:text-lg">
-            Novel research summaries to Facebook groups, all in one place.
+            Novel research summaries to advocacy tips, all in one place.
           </p>
         </div>
         <div className="flex flex-col gap-2">
           <div className="flex flex-row items-center gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-auto w-12 xl:w-[3.25rem] rounded-xl bg-gradient-to-tl from-[#1f6c8a] to-[#34E89E] p-[0.625rem] text-white"
+              className="h-auto w-12 rounded-xl bg-gradient-to-tl from-red-600 to-orange-500 p-[0.625rem] text-white xl:w-[3.25rem]"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"

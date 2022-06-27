@@ -1,8 +1,8 @@
 ---
 title: Sample .md file
-date: '2022-01-01'
-tags: ['markdown', 'code', 'features']
-draft: false
+date: '1/1/22'
+tags: ['code', 'features']
+draft: true
 summary: Example of a markdown file with code blocks and syntax highlighting (if the content writers want to change the look of their text)
 ---
 
