@@ -16,7 +16,8 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
 export default function App({ Component, pageProps }) {
-  console.log(Component.name)
+  console.log(`Component Name: ${Component.name}`)
+  console.log(`Component is Y?: ${Component.name === "Y"}`)
   return Component.name === 'Home' ? (
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
