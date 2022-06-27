@@ -15,7 +15,7 @@ const publishedResearch = [
       {
         topic: `The effect of lead concentration on Artemia hatch rate`,
         href: `/static/research/leadandartemia.pdf`,
-        authors: [`Maxx Yung`, `Wayne Shih`],
+        authors: [`Maxx Yung`, `Kevin Zhang`],
       },
     ],
   },
