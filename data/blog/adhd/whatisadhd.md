@@ -2,7 +2,7 @@
 title: 'What is ADHD?'
 date: '8/7/21'
 tags: ['adhd', 'what-is']
-author: ['jake']
+authors: ['jake']
 draft: false
 summary: 'An explanation of the biology behind and causes of Attention Deficit/Hyperactivity Disorder'
 ---
