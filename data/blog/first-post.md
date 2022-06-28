@@ -10,7 +10,7 @@ images: []
 
 ## Welcome to discussmed!
 
-This is the first post of our blog (hooray! 🎉), where our content writers will be delivering blog posts about the disease/disorder that will be focused on in that month. This website was finished on 6/27/2022, but for chronological reasons, I've dated it to be 6/1/2021. The preceding blog posts will be imported from the old website just so that we aren't missing any content.
+This is the first post of our blog (hooray! 🎉), where our content writers will be delivering blog posts about the disease/disorder that will be focused on in that month. This website was finished on 6/27/2022, but for chronological reasons, I've dated it to be 6/1/2021. The upcoming blog posts will be imported from the old website just so that we aren't missing any content.
 
 Creating this website took over 30 hours to make, so I hope you will have a great user experience. If you aren't sure where to get started, feel free to take a look at <a href="/resources">resources</a>. 
 
