@@ -1,8 +1,8 @@
 ---
 title: 'What is ADHD?'
 date: '8/7/21'
-tags: ['ADHD', 'What is?']
-author: ['Jake Konigsberg']
+tags: ['adhd', 'what-is?']
+author: ['jake']
 draft: false
 summary: 'An explanation of the biology behind and causes of Attention Deficit/Hyperactivity Disorder'
 ---
