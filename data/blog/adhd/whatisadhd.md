@@ -1,5 +1,5 @@
 ---
-title: 'What is ADHD?'
+title: 'What Is ADHD?'
 date: '8/7/21'
 tags: ['adhd', 'what-is']
 authors: ['jake']
@@ -11,7 +11,7 @@ Attention Deficit/Hyperactivity disorder is a life-long disorder characterized b
     
 -   Impairment in limbic system, produces behavioral and emotional responses→ emotional volatility
     
--   Impairment in basal ganglia, controls motor functions impulsivity
+-   Impairment in basal ganglia, controls motor functions→ impulsivity
     
 -   Impairment in the reticular activating system, mediates levels of alertness→ hyperactivity
 
