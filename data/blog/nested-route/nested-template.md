@@ -2,6 +2,7 @@
 title: Nested Template
 date: '1/1/22'
 tags: ['multi-author', 'nested-template']
+authors: ['stanley']
 draft: true
 summary: 'Nested template'
 ---

@@ -2,8 +2,8 @@
 title: Draft Example
 date: '1/1/22'
 tags: ['hello']
-draft: true
-authors: ['stanley']
+draft: false
+authors: ['jake']
 images: []
 ---
 
