@@ -50,6 +50,14 @@ export default function App({ Component, pageProps }) {
         />
         <meta property="twitter:image" content="https://discussmed.org/static/discussmed.png" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-59ZG2JRTHV"></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-59ZG2JRTHV');`}
+        </script>
       </Head>
       <Analytics />
       <Component {...pageProps} />
@@ -86,6 +94,14 @@ export default function App({ Component, pageProps }) {
         />
         <meta property="twitter:image" content="https://discussmed.org/static/discussmed.png" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-59ZG2JRTHV"></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-59ZG2JRTHV');`}
+        </script>
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
