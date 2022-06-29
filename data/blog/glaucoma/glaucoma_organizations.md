@@ -4,7 +4,7 @@ date: '9/25/21'
 tags: ['glaucoma', 'organizations']
 authors: ['jake']
 draft: false
-summary: 'In this blog, we will provide summarize the goals and missions of some of the major organizations involved in defeating glaucoma.'
+summary: 'In this blog, we will provide summaries of the goals and missions of some of the major organizations involved in defeating glaucoma.'
 ---
 
 Glaucoma affects an estimated 57.5 million people worldwide. Being an extremely prevalent disease which often incurs optic nerve damage before many symptoms appear, it is important to create awareness and knowledge about it to ensure that people know what to look for. Additionally, advocating against glaucoma shows support and solidarity for those adversely affected by it. Therefore, this blog provides an overview of three notable organizations devoted to fighting glaucoma.
