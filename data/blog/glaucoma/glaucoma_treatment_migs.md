@@ -4,7 +4,7 @@ date: '9/18/21'
 tags: ['glaucoma', 'treatment']
 authors: ['jake']
 draft: false
-summary: 'A general overview of what glaucoma is, risk factors associated with it, and different types of it.'
+summary: 'This is an in-depth yet accessible review of a novel and innovative treatment method for glaucoma: micro invasive glaucoma surgery.'
 ---
 Microinvasive glaucoma surgery (MIGS) is a new innovation in the treatment of glaucoma. MIGS aims to reduce the buildup of fluid behind the eye to alleviate pressure by either increasing the outflow of the fluid or decreasing its production.
 
