@@ -107,7 +107,7 @@ const Home = ({ posts }) => {
                   discussmed
                 </h1>
                 <h2 className="text-md mt-2 mb-4 sm:text-lg lg:text-xl 2xl:mt-4 2xl:mb-8 2xl:text-2xl">
-                  Making disease and disorder-related knowledge more accessible for everyone.
+                  Serving as the intermediate between youth and medical advocacy
                 </h2>
                 <NLink href={'/blog'}>
                   <div className="w-min cursor-pointer select-none whitespace-nowrap rounded-lg bg-gradient-to-tr from-[#0F3443] to-[#34E89E] px-6 py-3 text-lg font-semibold text-gray-50 shadow-md shadow-[#0F3443] transition-[5s] ease-linear hover:hue-rotate-15 active:scale-95 sm:text-xl lg:text-2xl 2xl:text-3xl">
@@ -168,11 +168,13 @@ const Home = ({ posts }) => {
               Our Mission
             </h1>
             <p className="text-lg text-gray-300 dark:text-gray-900 xl:mt-2 xl:text-xl">
-              We aim to{' '}
+              We aim to
               <span className="bg-gradient-to-tl from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
-                increase accessibility
+                {' '}
+                encourage youth engagement
               </span>{' '}
-              of medical knowledge and present it in an appealing and enjoyable way.
+              and interest in medical knowledge in order to promote youth based medical-related
+              advocacy through an array of different mediums:
             </p>
             <MissionItems />
             <br />
@@ -196,8 +198,7 @@ const Home = ({ posts }) => {
                   Our Team
                 </h1>
                 <h2 className="text-md text-gray-100 dark:text-gray-800 xl:text-lg">
-                  We're an organization comprised of high school students that aims to promote
-                  scientific and medical knowledge.
+                  Meet the wonderful team behind the mission!
                 </h2>
               </div>
               <div className="flex flex-col items-start">
@@ -260,8 +261,8 @@ const Home = ({ posts }) => {
                 <span className="bg-gradient-to-tr from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
                   discussmed
                 </span>{' '}
-                is an organization led by high school students that aims to promote scientific and
-                medical knowledge. Apply below to join{' '}
+                strives to serve as the intermediate between youth and medical advocacy
+                organizations. Apply below to join{' '}
                 <span className="bg-gradient-to-tr from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
                   the team
                 </span>
