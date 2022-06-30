@@ -1,5 +1,5 @@
 ---
-title: 'What Is Sickle Cell Disease?
+title: 'What Is Sickle Cell Disease?'
 date: '7/3/21'
 tags: ['sickle-cell-disease', 'what-is']
 authors: ['jake']
