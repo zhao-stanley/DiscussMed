@@ -1,17 +1,26 @@
 ---
-title: 'Schizophrenia Treatment: Caplyta'
+title: 'What Schizophrenia-fighting Organizations Should You Get Involved in?
 date: '11/27/21'
-tags: ['schizophrenia', 'treatment']
+tags: ['schizohrenia', 'organizations']
 authors: ['jake']
 draft: false
-summary: 'A detailed discussion of the use of immunotherapy rather than chemotherapy as a means to treat sarcoma.'
+summary: 'How can you make an impact in fighting schizophrenia? Where can you start? What organizations are leading this fight? These are the questions that we will explore the answers to in this blog.'
 ---
-Currently, there is no cure for schizophrenia, only treatments to reduce and mitigate its effects. If employed early and continuously, treatments can help control the effects of the disorder. One of the more recent treatments to be approved by the FDA for schizophrenia is Caplyta (aka lumateperone). This treatment is an antipsychotic medication, drugs used to manage the effects of psychosis, with the most common side effects being sleepiness and dry mouth.
+In the fight against schizophrenia, there are many notable organizations aiming to encourage research efforts, show solidarity, raise support for and awareness about those suffering, and advocate for schizophrenia-fighting legislation. Some notable organizations include:
 
-Caplyta works by affecting neurotransmitters, molecules that aid communication between neurons, such as dopamine, serotonin, and glutamate. Schizophrenia is thought to be caused in part by issues with neurotransmitters which Caplyta works to solve. Studies have shown that the imbalance of neurotransmitters such as dopamine, serotonin, and glutamate may be the cause of schizophrenia, and by balancing them, the symptoms affecting moods, thoughts, and behaviors are reduced.
+-   [Schizophrenia and Psychosis Action Alliance](https://sczaction.org/)
+    
 
-Caplyta is a novel treatment method in that it regulates dopamine, serotonin, and glutamate levels with a single drug. This reduces the number of drugs people need to take and has the effect of more thoroughly treating the symptoms of schizophrenia.
+The goal of this organization is to raise awareness about the challenge that schizophrenia poses to sufferers as a way to improve care and support for those with the disorder. This organization also hopes to have schizophrenia recognized around the world as a neurobiological brain illness, an illness of the nervous system caused by biological factors. To learn more about ways to get involved in this organization, go to the resource page of the discussmed.org website.
 
-![caplyta](https://tse2.mm.bing.net/th?id=OIP.uBNMiA5iRqT9GU0AL4XTkQAAAA&pid=Api&P=0&w=176&h=220)
+-   [National Alliance on Mental Illness(NAMI)](https://nami.org/Home)
+    
+
+NAMI focuses on creating a caring society supportive of those suffering with mental illness, and a place for sufferers to live happy and healthy lives. NAMI aims at promoting education, support, awareness, and advocacy to help improve the lives of those with mental illness. NAMI also provides resources, information about, and support groups for those facing schizophrenia.
+
+![SPAA](https://thebrightmentality.com/wp-content/uploads/2021/05/a2114d01b349413fa900bb7df49d1a96.png)
+
+![NAMI](https://wisesova.pitt.edu/wp-content/uploads/2018/04/NAMI-service-Logo.jpg)
+
 
 
