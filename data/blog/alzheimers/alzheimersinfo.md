@@ -1,3 +1,4 @@
+
 ---
 title: 'Alzheimer's -- Signs, Stats, and Facts'
 date: '1/8/22'
@@ -5,7 +6,6 @@ tags: ['alzheimers', 'info']
 authors: ['jake']
 draft: false
 summary: 'What symptoms are associated with Alzheimer's disease? What are some statistics to help understand the scope and pervasiveness of Alzheimer's disease? What are some interesting facts about the disease? The following blog will explore these questions and more.'
-
 ---
 Being a neurodegenerative disease, Alzheimer’s disease gets progressively worse with time. The symptoms and signs will gradually become more profound. Some commons symptoms and signs of Alzheimer’s disease includes:
 
