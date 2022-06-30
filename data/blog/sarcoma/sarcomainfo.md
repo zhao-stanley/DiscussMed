@@ -5,7 +5,6 @@ tags: ['sarcoma', 'info']
 authors: ['jake']
 draft: false
 summary: 'In this blog, the symptoms of, statistics about, and interesting facts about sarcoma will be explored.
-
 ---
 There are many symptoms and signs associated with sarcoma. Some of the more common symptoms includes:
 
