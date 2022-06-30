@@ -47,6 +47,7 @@ const roles = {
   webmaster: 'from-[#0F3443] to-[#34E89E]',
   research: 'from-blue-800 to-blue-400',
   content: 'from-purple-800 to-purple-400',
+  outreach: 'from-red-800 to-red-400',
 }
 
 const teamList = [
@@ -70,8 +71,8 @@ const teamList = [
   },
   {
     name: 'Maxx Yung',
-    title: 'Content Writer',
-    tag: roles.content,
+    title: 'Community Outreach',
+    tag: roles.outreach,
     img: maxx,
   },
   {
