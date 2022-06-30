@@ -1,7 +1,7 @@
 ---
 title: 'What Is Breast Cancer?'
 date: '12/3/21'
-tags: ['breast-cancer, 'what-is']
+tags: ['breast-cancer', 'what-is']
 authors: ['jake']
 draft: false
 summary: 'What is breast cancer? What are the different types of breast cancer? What are its causes? We will explore the answer to these questions and more in this blog.'
