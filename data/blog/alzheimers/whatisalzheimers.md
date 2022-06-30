@@ -1,5 +1,5 @@
 ---
-title: 'What Is Alzheimers Disease?'
+title: 'What Is Alzheimer's Disease?'
 date: '1/1/22'
 tags: ['alzheimers', 'what-is']
 authors: ['jake']
