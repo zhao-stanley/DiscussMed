@@ -1,5 +1,5 @@
 ---
-title: 'What Sickle Cell Disease-fighting Organizations Should You Get Involved in?
+title: 'What Sickle Cell Disease-fighting Organizations Should You Get Involved in?'
 date: '7/24/21'
 tags: ['sickle-cell-disease', 'organizations']
 authors: ['jake']
