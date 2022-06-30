@@ -1,6 +1,6 @@
 ---
 title: 'Schizophrenia Treatment: Caplyta'
-date: '11/20/21'
+date: '11/27/21'
 tags: ['schizophrenia', 'treatment']
 authors: ['jake']
 draft: false
