@@ -1,7 +1,7 @@
 ---
 title: 'New Website'
 date: '7/1/22'
-tags: ['website', 'miscellaneous]
+tags: ['website', 'miscellaneous']
 authors: ['jake', 'stanley', 'maxx', 'wayne', 'kevin', 'amanda']
 draft: false
 summary: 'We are undergoing a change in our website'
