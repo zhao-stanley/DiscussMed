@@ -1,4 +1,3 @@
-
 ---
 title: 'Alzheimer's -- Signs, Stats, and Facts'
 date: '1/8/22'
