@@ -1,10 +1,10 @@
 ---
-title: 'What Glaucoma-fighting Organizations Should You Get Involved in?
-date: '9/25/21'
-tags: ['glaucoma', 'organizations']
+title: 'Fundraising Against Breast Cancer'
+date: '1/22/22'
+tags: ['alzheimers', 'legislation']
 authors: ['jake']
 draft: false
-summary: 'In this blog, we will provide summaries of the goals and missions of some of the major organizations involved in defeating glaucoma.'
+summary: 'An in-depth investigation of the major pieces of national legislation that have greatly impacted the fight against Alzheimer's disease.'
 ---
 This blog will explore some of the legislation passed in the United States pertaining to Alzhiemer’s disease. The goal of this blog is to show you how big of an impact legislation can make in the care and treatment of those with Alzheimer’s. You can help get ground-breaking legislation like this passed by becoming an advocate yourself through organizations like Alzheimer’s Association which you can learn more about in the advocacy section of the discussmed.org website. The following are some of the most notable laws passed to advance the fight against Alzheimer’s disease:
 
