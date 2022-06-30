@@ -6,6 +6,7 @@ authors: ['jake']
 draft: false
 summary: 'This blog will dive into what Alzheimer's is and its possible/probable causes.'
 ---
+
 Alzheimer’s is a neurodegenerative disease, a disease causing progressive degeneration of nerves. The disease results in the brain being unable to perform many basic functions such as retain memory.
 
 Alzheimer’s disease is caused by a complex interplay of age-related, lifestyle, environmental, and genetic factors. In terms of age, it is important to note that it is not a direct cause of Alzheimer’s, but it is the largest risk factor. One’s chances of getting Alzheimer’s increases with age because it takes longer to clear beta-amyloid 42 in the brain, causing the protein to clump up. The protein clumping up resulting in it forming Alzheimer-causing plaques as it gets in-between neurons disrupting cell function and communication. 
