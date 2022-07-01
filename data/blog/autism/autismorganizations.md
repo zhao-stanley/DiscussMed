@@ -1,5 +1,5 @@
 ---
-title: 'What Autism-fighting Organizations Should You Get Involved in?
+title: 'What Autism-fighting Organizations Should You Get Involved in?'
 date: '2/25/22'
 tags: ['autism', 'organizations']
 authors: ['jake']
