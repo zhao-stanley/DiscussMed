@@ -4,7 +4,7 @@ date: '3/19/22'
 tags: ['als', 'treatment']
 authors: ['jake']
 draft: false
-summary: 'Is there a cure for autism? How do autism treatments work? What does the future of autism treatments look like? These questions and more will be answered in the following blog post.'
+summary: 'Did you know there are currently only two treatments available for ALS? We will review one of the approved and effective treatments here.'
 ---
 In terms of treating ALS, there is no cure available for it. However, there are treatments that can be employed to slow its progression. One treatment is Radicava ORS (edaravone) which can be administered orally rather than via IV which was the case for Radicava. Radicava was FDA approved in May of 2017 while Radicava ORS is soon to be approved (retrospective edit: it was approved in May of 2022).
 
@@ -13,3 +13,7 @@ Radicava and Radicava ORS work by relieving oxidative stress. Oxidative stress i
 Currently, the use of Radicava (edaravone) is one of only two ALS treatments. Additionally, with Radicava ORS which can be taken orally, this treatment is more accessible than ever before. However, Radicava ORS and Radicava do have some side effects such as bruising, problems walking, and tiredness. Overall, Radicava and Radicava ORS is leading the path in the treatment of ALS and the future of ALS medications.
 
 ![radicava](https://tse4.mm.bing.net/th?id=OIP.w3jvVII4c-gsf6b3S6ZAfwHaD4&pid=Api&P=0&w=373&h=195)
+
+
+
+
