@@ -4,7 +4,7 @@ date: '3/12/22'
 tags: ['als', 'info']
 authors: ['jake']
 draft: false
-summary:'This blog post will provide some of basic and essential information about ALS. This information will enable you to be knowledgeable and show you why it is some important to join advocacy efforts in fighting it.'
+summary: 'This blog post will provide some of basic and essential information about ALS, enabling you to be knowledgeable and show you why it is some important to join advocacy efforts in fighting it.'
 ---
 There are many signs and symptoms with ALS that will gradually worsen as the disease further progresses. Some of the common signs and symptoms include:
 
@@ -26,3 +26,5 @@ In the United States, around 5,000 people per year are diagnosed with ALS with a
 While it is caused by both genetic and environmental factors, 90% of ALS cases occur when the patient’s family has no history of the disease. Of those without family history of ALS, sporadic ALS is the most common. Sporadic ALS means the cause of the disease is unknown. While the cause of the disease is unknown, there are some groups at higher risk than others causing them to have a higher likelihood of developing it. High risk groups include elders, veterans, and smokers.
 
 ![als-diagrams](http://globalizm.org/wp-content/uploads/2014/08/ALS_Infographic.jpg)
+
+
