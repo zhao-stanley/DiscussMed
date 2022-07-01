@@ -4,7 +4,7 @@ date: '1/1/22'
 tags: ['alzheimers', 'what-is']
 authors: ['jake']
 draft: false
-summary: 'This blog will dive into what Alzheimer's is and its possible/probable causes.'
+summary: 'This blog post will dive into what Alzheimer's is and its possible/probable causes.'
 ---
 
 Alzheimer’s is a neurodegenerative disease, a disease causing progressive degeneration of nerves. The disease results in the brain being unable to perform many basic functions such as retain memory.
