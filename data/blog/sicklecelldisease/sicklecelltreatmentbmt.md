@@ -4,7 +4,7 @@ date: '7/17/21'
 tags: ['sickle-cell-disease', 'treatment']
 authors: ['jake']
 draft: false
-summary: 'Unlike many diseases discussed on discussmed.org, sickle cell disease can be cured through bone marrow transplants. This blog will investigate and discuss such transplants.'
+summary: 'Unlike many diseases discussed on discussmed.org, sickle cell disease can be cured through bone marrow transplants. This blog post will investigate and discuss such transplants.'
 ---
 Sickle cell disease is in fact curable with the use of bone marrow transplants, also known as stem cell transplants. While this method of treatment is a cure to sickle cell disease, it has significant risks involved, so it is rarely done.
 
