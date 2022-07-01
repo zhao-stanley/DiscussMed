@@ -4,7 +4,7 @@ date: '11/27/21'
 tags: ['schizohrenia', 'organizations']
 authors: ['jake']
 draft: false
-summary: 'How can you make an impact in fighting schizophrenia? Where can you start? What organizations are leading this fight? These are the questions that we will explore the answers to in this blog.'
+summary: 'How can you make an impact in fighting schizophrenia? Where can you start? What organizations are leading this fight? These are the questions that we will explore the answers to in this blog post.'
 ---
 In the fight against schizophrenia, there are many notable organizations aiming to encourage research efforts, show solidarity, raise support for and awareness about those suffering, and advocate for schizophrenia-fighting legislation. Some notable organizations include:
 
