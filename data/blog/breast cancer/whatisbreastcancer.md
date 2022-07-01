@@ -4,7 +4,7 @@ date: '12/3/21'
 tags: ['breast-cancer', 'what-is']
 authors: ['jake']
 draft: false
-summary: 'What is breast cancer? What are the different types of breast cancer? What are its causes? We will explore the answer to these questions and more in this blog.'
+summary: 'What is breast cancer? What are the different types of breast cancer? What are its causes? We will explore the answer to these questions and more in this blog post.'
 ---
 Breast cancer is a type of cancer forming in the cells of the human breast. It occurs when cells in the breast begin to grow and divide out of control forming a lump known as a tumor. In terms of breast cancer, it can begin in one or both breasts.
 
