@@ -1,5 +1,5 @@
 ---
-title: 'Alzheimer"s -- Signs, Stats, and Facts'
+title: 'Alzheimer''s -- Signs, Stats, and Facts'
 date: '1/8/22'
 tags: ['alzheimers', 'info']
 authors: ['jake']
