@@ -4,7 +4,7 @@ date: '3/12/22'
 tags: ['als', 'info']
 authors: ['jake']
 draft: false
-summary: 'This blog post will investigate some of the most common symptoms, telling statistics, and interesting facts relating to autism.'
+summary:'This blog post will provide some of basic and essential information about ALS, enabling you to be knowledgeable and show you why it is some important to join advocacy efforts in fighting it.'
 ---
 There are many signs and symptoms with ALS that will gradually worsen as the disease further progresses. Some of the common signs and symptoms include:
 
