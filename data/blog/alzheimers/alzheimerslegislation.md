@@ -21,6 +21,7 @@ This act was signed into law on December 13, 2016. It was designed to accelerate
 Overall, legislation is essential in terms of trying to create and distribute new medical resources and technology thus showing the importance of passing legislation to help fight Alzheimer’s disease.
 
 **Note: The title says "Alzheimers" due to markdown requirements, but the proper syntax is "Alzheimer's"**
+
 ![dementia-legislation](http://image.slideserve.com/246601/legislation-relevant-to-people-suffering-with-dementia-and-their-carers-n.jpg)
 
 
