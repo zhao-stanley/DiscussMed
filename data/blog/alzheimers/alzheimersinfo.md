@@ -22,6 +22,7 @@ Being a neurodegenerative disease, Alzheimer’s disease gets progressively wors
 In the United States, Alzheimer’s is the most common form of dementia and the 6th leading cause of death. In fact, over 6 million people are currently living with Alzheimer’s disease, and the number of people who have the disease is expected to triple by 2060.
 
 Alzheimer’s disease is more common in women with ⅔’s of Alzheimer’s diagnoses in the U.S. being women. Additionally, the prevalence of and likelihood of developing the disease increases with age. For example, the number of people living with the disease doubles every 5 years after 65. Alzheimer’s is also more common in African and Hispanic people.
+**Note: The title says "Alzheimers" due to markdown requirements, but the proper syntax is "Alzheimer's"**
 
 ![Alheimer's-facts](https://www.homeceuconnection.com/wp-content/uploads/2018/06/7-alzheimers-facts-HomeCEU.jpg)
 
