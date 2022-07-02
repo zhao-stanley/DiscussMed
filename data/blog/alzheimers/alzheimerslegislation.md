@@ -1,5 +1,5 @@
 ---
-title: 'Fundraising Against Alzheimers'
+title: 'Landmark Legislation in the Fight Against Alzheimers'
 date: '1/22/22'
 tags: ['alzheimers', 'legislation']
 authors: ['jake']
