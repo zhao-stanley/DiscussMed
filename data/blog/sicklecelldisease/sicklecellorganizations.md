@@ -4,7 +4,7 @@ date: '7/24/21'
 tags: ['sickle-cell-disease', 'organizations']
 authors: ['jake']
 draft: false
-summary: 'This blog will review some notable organizations that champion the fight against sickle cell disease. The discussion of each organization will be a brief overview of their mission.'
+summary: 'This blog post will review some notable organizations that champion the fight against sickle cell disease. The discussion of each organization will be a brief overview of their mission.'
 ---
 In the fight against sickle cell disease, it is important to show community and solidarity. There are many admirable and noble organizations which take it upon themselves to advocate for sickle cell disease legislation, fundraise for sickle cell disease research, and help those suffering from sickle cell disease. Here are a few of the main organizations which also have many opportunities for people like you to get involved.
 

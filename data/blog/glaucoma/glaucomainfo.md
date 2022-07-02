@@ -4,7 +4,7 @@ date: '9/11/21'
 tags: ['glaucoma', 'info']
 authors: ['jake']
 draft: false
-summary: 'This blogs aim to discuss and contextualize the symptoms, statistics, and interesting facts commonly associated with glaucoma.'
+summary: 'This blog post aims to discuss and contextualize the symptoms, statistics, and interesting facts commonly associated with glaucoma.'
 ---
 
 In many types of glaucoma, the optic nerve is extremely damaged even before symptoms begin to appear. Nevertheless, some of the more common symptoms include:
