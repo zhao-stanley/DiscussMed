@@ -1,5 +1,5 @@
 ---
-title: 'What Organizations Should You Get Involved in to Fight Heart Disease?
+title: 'What Organizations Should You Get Involved in to Fight Heart Disease?'
 date: '4/23/22'
 tags: ['heart-disease', 'organizations']
 authors: ['jake']
