@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'discussmed',
   headerTitle: 'discussmed',
   description:
-    'A high school student-led organization focused on increasing the accessibility of disease and disorder-related knowledge. This is done through synthesizing novel research, writing blog posts, encouraging advocacy efforts, and interviewing experts on the disease/disorder.',
+    'Encouraging youth engagement and interest in medical knowledge in order to promote youth based medical-related advocacy.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://discussmed.org',
