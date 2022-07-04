@@ -17,19 +17,19 @@ const upcomingTopics = [
   },
   {
     date: '5/23',
-    name: `Hepatitis`,
-  },
-  {
-    date: '6/23',
     name: `Scoliosis`,
   },
   {
+    date: '6/23',
+    name: `Hepatitis`,
+  },
+  {
     date: '7/22',
-    name: `Arthritis`,
+    name: `Psoriasis`,
   },
   {
     date: '8/22',
-    name: `Psoriasis`,
+    name: `Arthritis`,
   },
   {
     date: '9/22',

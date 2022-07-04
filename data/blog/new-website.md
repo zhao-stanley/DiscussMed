@@ -1,16 +1,16 @@
 ---
-title: First Post :)
-date: '6/1/2021'
+title: New Website!
+date: '6/27/2022'
 tags: ['miscellaneous']
 authors: ['stanley']
 draft: false
-summary: 'Welcome to discussmed! This is the first post of our blog (actually created 6/27/2022), where our content writers will be delivering blog posts about the disease/disorder that will be focused on in that month.'
+summary: 'Welcome to discussmed! This is the first post of our new blog, where we will be porting over content from our old website.'
 images: []
 ---
 
 ## Welcome to discussmed!
 
-This is the first post of our blog (hooray! 🎉), where our content writers will be delivering blog posts about the disease/disorder that will be focused on in that month. This website was finished on 6/27/2022, but for chronological reasons, I've dated it to be 6/1/2021. The upcoming blog posts will be imported from the old website just so that we aren't missing any content.
+This is the first post of our blog (hooray! 🎉), where our content writers will be delivering blog posts about the disease/disorder that will be focused on in that month. This website was finished on 6/27/2022, but we will be porting over content from our old website <a href="https://medicalseeds.weebly.com">medicalseeds.weebly.com</a>, which we had been using for the past year and a half. The upcoming blog posts will be imported from the old website just so that we aren't missing any content.
 
 Creating this website took over 30 hours to make, so I hope you will have a great user experience. If you aren't sure where to get started, feel free to take a look at <a href="/resources">resources</a>. 
 

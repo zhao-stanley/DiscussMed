@@ -1,5 +1,4 @@
 import siteMetadata from '@/data/siteMetadata'
-import podcastData from '@/data/podcastData'
 import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 
@@ -35,6 +34,13 @@ export default function Resources() {
               description={`Listen to our curated list of podcasts covering an extensive number of diseases/disorders.`}
               imgSrc={`/static/images/podcast.svg`}
               href={'/podcasts'}
+            />
+            <Card
+              text={'View now'}
+              title={'Partnerships'}
+              description={`View resources we created in collaboration with our partners.`}
+              imgSrc={`/static/images/partnership.svg`}
+              href={'/partnerships'}
             />
             <Card
               text={'Learn more'}
