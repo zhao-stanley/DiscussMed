@@ -307,15 +307,15 @@ const Home = ({ posts }) => {
                   >
                     <Image src={acscan} draggable="false" />
                   </Link>
-                  <div className="flex h-min w-auto max-w-[15vw] flex-col items-center lg:max-w-[8rem] gap-1 lg:gap-0">
+                  <div className="flex h-min w-auto max-w-[15vw] flex-col items-center gap-1 lg:max-w-[8rem] lg:gap-0">
                     <Image src={placeholder} draggable="false" />
-                    <span className="select-none text-center text-xs font-semibold leading-3 text-black lg:text-base lg:whitespace-nowrap">
+                    <span className="select-none text-center text-xs font-semibold leading-3 text-black lg:whitespace-nowrap lg:text-base">
                       Arcadia Pharmacy
                     </span>
                   </div>
-                  <div className="flex h-min w-auto max-w-[15vw] flex-col items-center lg:max-w-[8rem] gap-1 lg:gap-0">
+                  <div className="flex h-min w-auto max-w-[15vw] flex-col items-center gap-1 lg:max-w-[8rem] lg:gap-0">
                     <Image src={roslynmha} draggable="false" />
-                    <span className="select-none text-center text-xs font-semibold leading-3 text-black lg:text-base lg:whitespace-nowrap">
+                    <span className="select-none text-center text-xs font-semibold leading-3 text-black lg:whitespace-nowrap lg:text-base">
                       Roslyn MHA Club
                     </span>
                   </div>
