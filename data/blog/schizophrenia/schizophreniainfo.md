@@ -1,6 +1,6 @@
 ---
 title: 'Schizophrenia-- Signs, Stats, and Facts'
-date: '9/13/21'
+date: '11/13/21'
 tags: ['schizophrenia', 'info']
 authors: ['jake']
 draft: false
