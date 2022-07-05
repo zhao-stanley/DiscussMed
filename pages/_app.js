@@ -1,12 +1,10 @@
 import '@/css/tailwind.css'
 import '@/css/prism.css'
 import 'katex/dist/katex.css'
-
 import '@fontsource/inter/variable-full.css'
-
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
-
+import Script from 'next/script'
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
@@ -16,8 +14,6 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
 export default function App({ Component, pageProps }) {
-  //console.log(`Component Name: ${Component.name}`)
-  //console.log(`Component is Y?: ${Component.name === 'Y'}`)
   return (
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
@@ -50,14 +46,19 @@ export default function App({ Component, pageProps }) {
         />
         <meta property="twitter:image" content="https://discussmed.org/static/discussmed.png" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-59ZG2JRTHV"></script>
-        <script>
-          {`window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-59ZG2JRTHV');`}
-        </script>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-59ZG2JRTHV"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+  
+          gtag('config', 'G-59ZG2JRTHV');
+        `}
+        </Script>
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
