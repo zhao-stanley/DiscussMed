@@ -46,6 +46,8 @@ export default function App({ Component, pageProps }) {
         />
         <meta property="twitter:image" content="https://discussmed.org/static/discussmed.png" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+      </Head>
+      <head>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-59ZG2JRTHV"
           strategy="afterInteractive"
@@ -59,7 +61,7 @@ export default function App({ Component, pageProps }) {
           gtag('config', 'G-59ZG2JRTHV');
         `}
         </Script>
-      </Head>
+      </head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
       <LayoutWrapper>
