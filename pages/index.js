@@ -1,21 +1,17 @@
-import placeholder from '../public/static/images/placeholder.png'
 import Link from '../components/Link'
 import SectionContainer from '../components/SectionContainer'
 import upcomingTopics from '@/data/upcomingTopics'
 import Footer from '../components/Footer'
 import dayjs from 'dayjs'
 import MissionItems from '@/components/MissionItems'
-import Image from 'next/image'
-import acscan from '../public/static/images/partners/acscan.png'
-//import aha from '../public/static/images/partners/aha.png'
-import roslynmha from '../public/static/images/partners/roslynmha.png'
 import Tag from '@/components/Tag'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import { ContactForm } from '@/components/ContactForm'
 import TeamMembers from '@/components/TeamMembers'
+import { PartnerRow } from '@/components/PartnerRow'
 
-const MAX_DISPLAY = 5
+const MAX_DISPLAY = 10
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
@@ -237,26 +233,7 @@ const Home = ({ posts }) => {
                 Proud partners
               </h1>
               <div className="flex flex-col items-center rounded-2xl bg-white px-4 py-2 drop-shadow-lg">
-                <div className="flex w-full flex-row items-center justify-around">
-                  <Link
-                    href="https://www.fightcancer.org/"
-                    className="h-min w-auto max-w-[15vw] lg:max-w-[8rem]"
-                  >
-                    <Image src={acscan} draggable="false" />
-                  </Link>
-                  <div className="flex h-min w-auto max-w-[15vw] flex-col items-center gap-1 lg:max-w-[8rem] lg:gap-0">
-                    <Image src={placeholder} draggable="false" />
-                    <span className="select-none text-center text-xs font-semibold leading-3 text-black lg:whitespace-nowrap lg:text-base">
-                      Arcadia Pharmacy
-                    </span>
-                  </div>
-                  <div className="flex h-min w-auto max-w-[15vw] flex-col items-center gap-1 lg:max-w-[8rem] lg:gap-0">
-                    <Image src={roslynmha} draggable="false" />
-                    <span className="select-none text-center text-xs font-semibold leading-3 text-black lg:whitespace-nowrap lg:text-base">
-                      Roslyn MHA Club
-                    </span>
-                  </div>
-                </div>
+                <PartnerRow />
               </div>
             </div>
             <div
