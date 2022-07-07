@@ -1,6 +1,5 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
-  "version": "1.5.5",
+  "name": "discussmed",
   "private": true,
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
