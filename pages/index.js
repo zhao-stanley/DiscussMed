@@ -197,8 +197,7 @@ const Home = ({ posts }) => {
                 <span className="bg-gradient-to-tr from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
                   discussmed
                 </span>{' '}
-                strives to serve as the intermediate between youth and medical advocacy
-                organizations. Apply below to join{' '}
+                aims to bridge medical advocacy communities with future generations. Apply below to join{' '}
                 <span className="bg-gradient-to-tr from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
                   the team
                 </span>

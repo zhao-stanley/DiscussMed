@@ -34,13 +34,13 @@ const interviewData = [
     href: 'ZahnInterview',
     topic: 'Heart Disease',
   },
-  /*{
-    name: 'Tsai',
-    description: `Dr. Tsai is the Medical Director and founder of NYFC. As an OB-GYN, he specializes in the woman's reproductive tract, pregnancy and childbirth. Special areas of interest include the infertility, laparoscopic, laser surgery and difficult cases. Dr. Tsai is an Assistant Professor of Obstetrics and Gynecology at Weill Medical College of Cornell University. He is the former Chairman of ACOG District 2 Section 3, and holds numerous other leadership positions including former president of Queens Ob/Gyn Society, former Vice Chairman, as well as Secretary and Treasurer of Queens Ob/Gyn Society, and is an advocate for women's reproductive rights.`,
-    imgSrc: 'drtsai.png',
-    href: 'ZahnInterview',
-    topic: 'Heart Disease',
-  },*/
+  {
+    name: 'Chow',
+    description: `Dr. Chow is an infectious disease specialist at Tufts Medical Center. He is an assistant professor and the director of the Tufts Infectious Disease Fellowship Program. Dr. Chow specializes in treating HIV, sexually transmitted infections, and general infectious disease among other things.`,
+    imgSrc: 'drchow.jpg',
+    href: 'ChowInterview',
+    topic: 'HIV/AIDS',
+  },
 ]
 
 export default interviewData

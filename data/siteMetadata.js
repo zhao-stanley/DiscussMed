@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'discussmed',
   headerTitle: 'discussmed',
   description:
-    'Encouraging youth engagement and interest in medical knowledge in order to promote youth based medical-related advocacy.',
+    'Bridging medical advocacy communities with future generations.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://discussmed.org',

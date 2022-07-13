@@ -28,7 +28,7 @@ export default function Partnerships() {
                 title={`${d.name}`}
                 description={d.description}
                 imgSrc={`/static/images/partners/${d.imgSrc}`}
-                href={d.href.length > 0 ? `/static/partnerships/${d.href}` : '/partnerships'}
+                href={d.href}
               />
             ))}
           </div>
