@@ -1,5 +1,5 @@
 ---
-title: 'What Organizations Fighting Schizophrenia Should You Get Involved in?'
+title: 'What Organizations Fighting Schizophrenia Should You Get Involved With?'
 date: '11/27/21'
 tags: ['schizophrenia', 'organizations']
 authors: ['jake']
