@@ -1,5 +1,5 @@
 ---
-title: 'What Glaucoma-fighting Organizations Should You Get Involved in?'
+title: 'Notable Organizations Fighting Glaucoma'
 date: '9/25/21'
 tags: ['glaucoma', 'organizations']
 authors: ['jake']
