@@ -21,6 +21,7 @@ const TeamMember = () => {
               objectPosition="center center"
               placeholder="blur"
               draggable="false"
+              alt={e.name}
               src={e.img}
             />
           </div>

@@ -13,13 +13,13 @@ export const PartnerRow = () => {
         href="https://www.fightcancer.org/"
         className="h-min w-auto max-w-[15vw] lg:max-w-[8rem]"
       >
-        <Image src={acscan} draggable="false" />
+        <Image src={acscan} alt="ACSCAN" draggable="false" />
       </Link>
       <div className="flex h-min w-auto max-w-[15vw] flex-col items-center gap-1 lg:max-w-[8rem] lg:gap-0">
-        <Image src={arcadia} draggable="false" />
+        <Image src={arcadia} alt="Arcadia Pharmacy" draggable="false" />
       </div>
       <div className="flex h-min w-auto max-w-[15vw] flex-col items-center gap-1 lg:max-w-[8rem] lg:gap-0">
-        <Image src={roslynmha} draggable="false" />
+        <Image src={roslynmha} alt="Roslyn Mental Health Awareness Club" draggable="false" />
         <span className="select-none text-center text-xs font-semibold leading-3 text-black lg:whitespace-nowrap lg:text-base">
           Roslyn MHA Club
         </span>
