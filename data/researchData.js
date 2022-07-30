@@ -101,6 +101,23 @@ const researchData = [
       },
     ],
   },
+  {
+    topic: `Psoriasis`,
+    links: [
+      {
+        name: `Immunology of psoriasis`,
+        href: `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4229247/`,
+      },
+      {
+        name: `Psoriasis pathogenesis and treatment`,
+        href: `https://www.mdpi.com/1422-0067/20/6/1475`,
+      },
+      {
+        name: `New drug and treatment targets in psoriasis`,
+        href: `https://www.researchgate.net/profile/Claus-Zachariae/publication/264628191_New_Drugs_and_Treatment_Targets_in_Psoriasis/links/550294c10cf2d60c0e63ec3c/New-Drugs-and-Treatment-Targets-in-Psoriasis.pdf`,
+      },
+    ],
+  },
 ]
 
 export default researchData

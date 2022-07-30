@@ -131,6 +131,18 @@ const podcastData = [
     imgSrc: 'hivhopecharity.png',
     href: 'https://open.spotify.com/show/16VnZqjwrBFG4nB96Ra58s',
   },
+  {
+    title: 'The Psoriasis Geek Podcast',
+    description: `Find your best treatment for Psoriasis. We talk about the things no one else does (but really should) - with a focus on Nutrition, Stress Management, Mental Health, Education, Community, and Inspirational Stories.`,
+    imgSrc: 'psoriasisgeek.png',
+    href: 'https://podcasts.apple.com/us/podcast/the-psoriasis-geek-podcast/id1411444847',
+  },
+  {
+    title: 'Medscape InDiscussion: Psoriasis',
+    description: `Join dermatologist Dr Steven Feldman as he and expert guests examine a wide range of best practices for individuals with psoriasis and provide salient clinical takeaways for listeners. Episode topics include quality of life, topical treatment, phototherapy, systemic therapy and more.`,
+    imgSrc: 'medscapepsoriasis.png',
+    href: 'https://podcasts.apple.com/us/podcast/medscape-indiscussion-psoriasis/id1617844704',
+  },
 ]
 
 export default podcastData

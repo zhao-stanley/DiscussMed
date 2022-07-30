@@ -59,7 +59,7 @@ const LayoutWrapper = ({ children }) => {
                 <h2 className="text-md mt-2 mb-4 sm:text-lg lg:text-xl 2xl:mt-4 2xl:mb-8 2xl:text-2xl">
                   Bridging medical advocacy communities with future generations
                 </h2>
-                <NLink href={'/blog'} passHref="false">
+                <NLink href={'/blog'} passHref={false}>
                   <div className="w-min cursor-pointer select-none whitespace-nowrap rounded-lg bg-gradient-to-tr from-[#0F3443] to-[#34E89E] px-6 py-3 text-lg font-semibold text-gray-50 shadow-md shadow-[#0F3443] transition-[5s] ease-linear hover:hue-rotate-15 active:scale-95 sm:text-xl lg:text-2xl 2xl:text-3xl">
                     Start reading
                   </div>
