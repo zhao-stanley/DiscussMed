@@ -46,8 +46,11 @@ export default function App({ Component, pageProps }) {
         />
         <meta property="twitter:image" content="https://discussmed.org/static/discussmed.png" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-59ZG2JRTHV"></script>
-        <script>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-59ZG2JRTHV"
+          strategy="afterInteractive"
+        ></Script>
+        <Script id="google-analytics" strategy="afterInteractive">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -55,7 +58,7 @@ export default function App({ Component, pageProps }) {
 
           gtag('config', 'G-59ZG2JRTHV');
           `}
-        </script>
+        </Script>
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
