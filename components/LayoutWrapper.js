@@ -2,6 +2,7 @@ import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '../public/static/images/discussmed.svg'
 import Link from './Link'
+import Script from 'next/script'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
@@ -14,6 +15,19 @@ const LayoutWrapper = ({ children }) => {
   return children.props.isHome ? (
     <>
       <ScrollTop />
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-59ZG2JRTHV"
+        strategy="afterInteractive"
+      ></Script>
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-59ZG2JRTHV');
+          `}
+      </Script>
       <PageSEO title={`Home - ${siteMetadata.author}`} description={siteMetadata.description} />
       <SectionContainer cn={'h-screen'}>
         <div className="flex h-auto flex-col items-center">
@@ -59,7 +73,7 @@ const LayoutWrapper = ({ children }) => {
                 <h2 className="text-md mt-2 mb-4 sm:text-lg lg:text-xl 2xl:mt-4 2xl:mb-8 2xl:text-2xl">
                   Bridging medical advocacy communities with future generations
                 </h2>
-                <NLink href={'/blog'} passHref={false}>
+                <NLink href={'/blog'} passHref={true}>
                   <div className="w-min cursor-pointer select-none whitespace-nowrap rounded-lg bg-gradient-to-tr from-[#0F3443] to-[#34E89E] px-6 py-3 text-lg font-semibold text-gray-50 shadow-md shadow-[#0F3443] transition-[5s] ease-linear hover:hue-rotate-15 active:scale-95 sm:text-xl lg:text-2xl 2xl:text-3xl">
                     Start reading
                   </div>
