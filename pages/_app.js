@@ -4,7 +4,6 @@ import 'katex/dist/katex.css'
 import '@fontsource/inter/variable-full.css'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
-import Script from 'next/script'
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
@@ -46,19 +45,6 @@ export default function App({ Component, pageProps }) {
         />
         <meta property="twitter:image" content="https://discussmed.org/static/discussmed.png" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-59ZG2JRTHV"
-          strategy="afterInteractive"
-        ></Script>
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-59ZG2JRTHV');
-          `}
-        </Script>
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
