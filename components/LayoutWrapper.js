@@ -2,6 +2,7 @@ import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '../public/static/images/discussmed.svg'
 import Link from './Link'
+import Script from 'next/script'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
@@ -14,6 +15,19 @@ const LayoutWrapper = ({ children }) => {
   return children.props.isHome ? (
     <>
       <ScrollTop />
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-59ZG2JRTHV"
+        strategy="afterInteractive"
+      ></Script>
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-59ZG2JRTHV');
+          `}
+      </Script>
       <PageSEO title={`Home - ${siteMetadata.author}`} description={siteMetadata.description} />
       <SectionContainer cn={'h-screen'}>
         <div className="flex h-auto flex-col items-center">
