@@ -29,7 +29,7 @@ export default function Interviews() {
                 title={`Dr. ${d.name} - ${d.topic}`}
                 description={d.description}
                 imgSrc={`/static/images/interview/${d.imgSrc}`}
-                href={`/static/audio/${d.href}.mp3`}
+                href={`/static/interviews/${d.href}`}
               />
             ))}
           </div>

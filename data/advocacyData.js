@@ -102,6 +102,17 @@ const advocacyData = [
     imgSrc: `au`,
     href: `https://aidsunited.org/`,
   },
+  {
+    cause: `Psoriasis`,
+    org: `National Psoriasis Foundation`,
+    steps: [
+      `Mentoring one-to-one those with psoriasis and psoriatic arthritis helping them through their condition by providing a friend and someone to talk to`,
+      `Volunteering in advocacy to educate others about psoriasis and psoriatic arthritis and to help influence government policy`,
+      `Participating in a Team NPF Walk, Cycle, or Run serving to raise money, support, and awareness for psoriasis and psoriatic arthritis.`,
+    ],
+    imgSrc: `npf`,
+    href: `https://www.psoriasis.org/`,
+  },
 ]
 
 export default advocacyData
