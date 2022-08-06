@@ -1,5 +1,5 @@
 ---
-title: discussmed is now a PWA!
+title: DiscussMed is now a PWA!
 date: '8/6/2022'
 tags: ['website']
 authors: ['stanley']
@@ -12,11 +12,11 @@ images: []
 
 PWAs, known as Progressive Web Apps, allow you to install a site to your device and use it like a native app, making it much more convenient for you (the user).
 
-Installing discussmed as a PWA will allow you to have an app icon on your home screen, which will open discussmed as an app instead of your browser.
+Installing DiscussMed as a PWA will allow you to have an app icon on your home screen, which will open discussmed as an app instead of your browser.
 
-# How can I add discussmed to my phone?
+# How can I add DiscussMed to my phone?
 
-Below are instructions on how to add discussmed to your phone, whether you are on iOS or Android, courtesy of [MobileSyrup](https://mobilesyrup.com/2020/05/24/how-install-progressive-web-app-pwa-android-ios-pc-mac/) for providing the images used in this post.
+Below are instructions on how to add DiscussMed to your phone, whether you are on iOS or Android, courtesy of [MobileSyrup](https://mobilesyrup.com/2020/05/24/how-install-progressive-web-app-pwa-android-ios-pc-mac/) for providing the images used in this post.
 
 ## iOS
 

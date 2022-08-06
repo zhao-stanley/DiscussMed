@@ -1,7 +1,7 @@
 <img src="/public/static/images/discussmed.svg"/>
 <br />
 <div align="center">
-  <h3 align="center">discussmed</h3>
+  <h3 align="center">DiscussMed</h3>
 
   <p align="center">
     Making disease and disorder-related knowledge more accessible for everyone.

@@ -204,7 +204,7 @@ const Home = ({ posts }) => {
               </h1>
               <p className="text-lg text-gray-900 dark:text-gray-300 xl:text-xl">
                 <span className="bg-gradient-to-tr from-[#1f6c8a] to-[#34E89E] bg-clip-text font-semibold text-transparent">
-                  discussmed
+                  DiscussMed
                 </span>{' '}
                 aims to bridge medical advocacy communities with future generations. Apply below to
                 join{' '}

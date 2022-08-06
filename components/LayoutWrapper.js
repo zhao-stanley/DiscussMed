@@ -26,7 +26,7 @@ const LayoutWrapper = ({ children }) => {
           gtag('config', 'G-59ZG2JRTHV');
           `}
       </Script>
-      <PageSEO title={`Home - ${siteMetadata.author}`} description={siteMetadata.description} />
+      <PageSEO title={`${siteMetadata.author}`} description={siteMetadata.description} />
       <SectionContainer>
         <div className="flex h-auto flex-col items-center">
           <header className="fixed z-10 flex w-full justify-center bg-gray-100 py-6 px-4 shadow-lg dark:bg-gray-900">
@@ -69,7 +69,7 @@ const LayoutWrapper = ({ children }) => {
               <div className="flex h-screen flex-grow flex-col items-center justify-center gap-6 py-24">
                 <div className="mx-5 mb-24 sm:flex sm:flex-col sm:items-center sm:text-center">
                   <h1 className="bg-gradient-to-tl from-[#0F3443] to-[#34E89E] bg-clip-text text-5xl font-extrabold tracking-tight text-transparent sm:text-6xl lg:text-7xl 2xl:text-8xl">
-                    discussmed
+                    {siteMetadata.headerTitle}
                   </h1>
                   <h2 className="text-md mt-2 mb-4 sm:text-lg lg:text-xl 2xl:mt-4 2xl:mb-8 2xl:text-2xl">
                     Bridging medical advocacy communities with future generations

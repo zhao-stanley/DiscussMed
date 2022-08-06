@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'discussmed',
-  author: 'discussmed',
-  headerTitle: 'discussmed',
+  title: 'DiscussMed',
+  author: 'DiscussMed',
+  headerTitle: 'DiscussMed',
   description: 'Bridging medical advocacy communities with future generations.',
   language: 'en-us',
   theme: 'system', // system, dark or light
