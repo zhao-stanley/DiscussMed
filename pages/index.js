@@ -10,7 +10,8 @@ import formatDate from '@/lib/utils/formatDate'
 import { ContactForm } from '@/components/ContactForm'
 import TeamMembers from '@/components/TeamMembers'
 import { PartnerRow } from '@/components/PartnerRow'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
+import useLayoutEffect from '@/lib/utils/useIsomorphicLayoutEffect'
 import PWA from '@/components/PWA'
 
 const MAX_DISPLAY = 10
@@ -57,7 +58,7 @@ upcomingTopics.forEach((e, key) => {
 
 const Home = ({ posts }) => {
   const [isPWA, setIsPWA] = useState(false)
-  useEffect(() => {
+  useLayoutEffect(() => {
     setIsPWA(window.matchMedia('(display-mode: standalone)').matches)
   })
 
