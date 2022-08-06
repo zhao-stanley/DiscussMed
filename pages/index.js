@@ -10,6 +10,8 @@ import formatDate from '@/lib/utils/formatDate'
 import { ContactForm } from '@/components/ContactForm'
 import TeamMembers from '@/components/TeamMembers'
 import { PartnerRow } from '@/components/PartnerRow'
+import { useEffect, useState } from 'react'
+import PWA from '@/components/PWA'
 
 const MAX_DISPLAY = 10
 
@@ -52,9 +54,16 @@ upcomingTopics.forEach((e, key) => {
     )
   }
 })
+
 const Home = ({ posts }) => {
+  const [isPWA, setIsPWA] = useState(false)
+  useEffect(() => {
+    setIsPWA(window.matchMedia('(display-mode: standalone)').matches)
+  })
+
   return (
     <>
+      {isPWA ? null : <PWA />}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="w-full"
