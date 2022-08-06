@@ -146,7 +146,7 @@ const Home = ({ posts }) => {
                   Meet the wonderful team behind the mission!
                 </h2>
               </div>
-              <div className="flex flex-col items-start">
+              <div className="flex flex-col items-center">
                 <TeamMembers />
               </div>
             </div>
