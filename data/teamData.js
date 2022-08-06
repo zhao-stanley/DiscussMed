@@ -5,6 +5,7 @@ import amanda from '../public/static/images/team/amanda.png'
 import maxx from '../public/static/images/team/maxx.png'
 import kevin from '../public/static/images/team/kevin.png'
 import wayne from '../public/static/images/team/wayne.png'
+import xintong from '../public/static/images/team/xintong.jpg'
 
 const teamData = [
   {
@@ -50,7 +51,7 @@ const teamData = [
   {
     name: 'Xintong Lu',
     role: 'outreach',
-    img: placeholder,
+    img: xintong,
   },
   {
     name: 'Awab Ahmed',
