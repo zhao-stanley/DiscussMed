@@ -24,7 +24,7 @@ Below are instructions on how to add discussmed to your phone, whether you are o
 
 ![How to install PWA on iOS](/static/images/installpwaios.png)
 
-Look for the menu bar on Safari and click on the share icon in the middle. The share icon should be an arrow pointing through a box. Clicking this will open a menu that will show an option called "Add to Home Screen". Click this and press "Add"
+Look for the menu bar on Safari and click on the share icon in the middle. The share icon should be an arrow pointing through a box. Clicking this will open a menu that will show an option called "Add to Home Screen". Click this and press "Add".
 
 ## Android
 
