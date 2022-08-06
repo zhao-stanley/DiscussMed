@@ -10,6 +10,8 @@ import formatDate from '@/lib/utils/formatDate'
 import { ContactForm } from '@/components/ContactForm'
 import TeamMembers from '@/components/TeamMembers'
 import { PartnerRow } from '@/components/PartnerRow'
+import { useState, useEffect } from 'react'
+import PWA from '@/components/PWA'
 
 const MAX_DISPLAY = 10
 
@@ -52,12 +54,19 @@ upcomingTopics.forEach((e, key) => {
     )
   }
 })
+
 const Home = ({ posts }) => {
+  const [isPWA, setIsPWA] = useState(true)
+  useEffect(() => {
+    setIsPWA(window.matchMedia('(display-mode: standalone)').matches)
+  }, [])
+
   return (
     <>
+      {isPWA ? null : <PWA />}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-full"
+        className="w-full bg-gradient-to-t from-gray-900 to-gray-100 dark:from-gray-100 dark:to-gray-900"
         version="1.1"
         viewBox="0 0 2560 400"
       >
@@ -146,7 +155,7 @@ const Home = ({ posts }) => {
       </SectionContainer>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-full bg-gray-900 dark:bg-gray-100"
+        className="w-full bg-gradient-to-t from-gray-100 to-gray-900 dark:from-gray-900 dark:to-gray-100"
         version="1.1"
         viewBox="0 0 2560 400"
       >
@@ -250,7 +259,7 @@ const Home = ({ posts }) => {
       </SectionContainer>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-full bg-gray-100 dark:bg-gray-900"
+        className="w-full bg-gradient-to-t from-gray-900 to-gray-100 dark:from-gray-100 dark:to-gray-900"
         version="1.1"
         viewBox="0 0 2560 450"
       >
