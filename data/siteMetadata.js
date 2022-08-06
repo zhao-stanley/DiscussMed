@@ -2,8 +2,7 @@ const siteMetadata = {
   title: 'discussmed',
   author: 'discussmed',
   headerTitle: 'discussmed',
-  description:
-    'Bridging medical advocacy communities with future generations.',
+  description: 'Bridging medical advocacy communities with future generations.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://discussmed.org',
