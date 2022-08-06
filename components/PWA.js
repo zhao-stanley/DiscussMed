@@ -47,7 +47,7 @@ export default function PWA() {
             </svg>
           </div>
           <div className="mx-2 flex w-full items-center justify-center">
-            <Link href="/blog/pwa">
+            <Link href="/blog/pwa" passHref>
               <div className="flex w-full cursor-pointer justify-center rounded-lg bg-white px-3 py-2 font-semibold text-black shadow-lg transition-[5s] ease-linear hover:bg-gray-300">
                 <h1 className="w-fit select-none text-xs sm:text-base">What is this?</h1>
               </div>

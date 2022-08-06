@@ -43,7 +43,10 @@ export default function App({ Component, pageProps }) {
           property="twitter:description"
           content="Encouraging youth engagement and interest in medical knowledge in order to promote youth based medical-related advocacy."
         />
-        <meta property="twitter:image" content="https://discussmed.org/static/images/discussmed.png" />
+        <meta
+          property="twitter:image"
+          content="https://discussmed.org/static/images/discussmed.png"
+        />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
