@@ -66,7 +66,7 @@ const LayoutWrapper = ({ children }) => {
           </header>
 
           <main className="relative z-0 mb-auto">
-            <div className="flex h-screen flex-grow flex-col items-center justify-center gap-6">
+            <div className="flex h-screen flex-grow flex-col items-center justify-center gap-6 pt-28">
               <div className="mx-5 mb-24 sm:flex sm:flex-col sm:items-center sm:text-center">
                 <h1 className="bg-gradient-to-tl from-[#0F3443] to-[#34E89E] bg-clip-text text-5xl font-extrabold tracking-tight text-transparent sm:text-6xl lg:text-7xl 2xl:text-8xl">
                   discussmed
