@@ -1,9 +1,10 @@
 import Link from 'next/link'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
+import useLayoutEffect from '@/lib/utils/useIsomorphicLayoutEffect'
 
 export default function PWA() {
   const [closed, setClosed] = useState(false)
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (localStorage.getItem('pwaClosed') === 'true') {
       setClosed(true)
     }
