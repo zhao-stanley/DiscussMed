@@ -14,8 +14,6 @@ PWAs, known as Progressive Web Apps, allow you to install a site to your device 
 
 Installing discussmed as a PWA will allow you to have an app icon on your home screen, which will open discussmed as an app instead of your browser.
 
-Since discussmed is a PWA, you can continue to access discussmed even when you're offline!
-
 # How can I add discussmed to my phone?
 
 Below are instructions on how to add discussmed to your phone, whether you are on iOS or Android, courtesy of [MobileSyrup](https://mobilesyrup.com/2020/05/24/how-install-progressive-web-app-pwa-android-ios-pc-mac/) for providing the images used in this post.
