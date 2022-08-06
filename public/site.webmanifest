@@ -4,8 +4,8 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "discussmed",
-  "short_name": "discussmed",
+  "name": "DiscussMed",
+  "short_name": "DiscussMed",
   "description": "Bridging medical advocacy communities with future generations.",
   "icons": [
     { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
