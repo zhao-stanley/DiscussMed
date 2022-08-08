@@ -41,22 +41,22 @@ const teamData = [
   },
   {
     name: 'Maxx Yung',
-    role: 'outreach',
+    role: 'community',
     img: maxx,
   },
   {
     name: 'Harini Senthilkumar',
-    role: 'outreach',
+    role: 'community',
     img: harini,
   },
   {
     name: 'Xintong Lu',
-    role: 'outreach',
+    role: 'community',
     img: xintong,
   },
   {
     name: 'Awab Ahmed',
-    role: 'outreach',
+    role: 'community',
     img: placeholder,
   },
 ]
