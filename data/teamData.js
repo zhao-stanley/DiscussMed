@@ -6,6 +6,7 @@ import maxx from '../public/static/images/team/maxx.png'
 import kevin from '../public/static/images/team/kevin.png'
 import wayne from '../public/static/images/team/wayne.png'
 import xintong from '../public/static/images/team/xintong.jpg'
+import harini from '../public/static/images/team/harini.jpg'
 
 const teamData = [
   {
@@ -39,14 +40,14 @@ const teamData = [
     img: wayne,
   },
   {
-    name: 'Harini Senthilkumar',
-    role: 'content',
-    img: placeholder,
-  },
-  {
     name: 'Maxx Yung',
     role: 'outreach',
     img: maxx,
+  },
+  {
+    name: 'Harini Senthilkumar',
+    role: 'outreach',
+    img: harini,
   },
   {
     name: 'Xintong Lu',

@@ -28,7 +28,7 @@ const LayoutWrapper = ({ children }) => {
       </Script>
       <PageSEO title={`${siteMetadata.author}`} description={siteMetadata.description} />
       <SectionContainer>
-        <div className="flex h-auto flex-col items-center">
+        <div className="flex h-[80vh] flex-col items-center">
           <header className="fixed z-10 flex w-full justify-center bg-gray-100 py-6 px-4 shadow-lg dark:bg-gray-900">
             <div className="flex w-full items-center justify-between sm:max-w-[720px] sm:px-0 xl:max-w-5xl">
               <div>
