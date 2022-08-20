@@ -1,5 +1,5 @@
 ---
-title: 'Arthritis-- Biological DMARDS
+title: 'Arthritis-- Biological DMARDS'
 date: '8/20/22'
 tags: ['arthritis', 'info']
 authors: ['jake']
