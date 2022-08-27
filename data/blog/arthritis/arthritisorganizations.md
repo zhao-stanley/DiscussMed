@@ -23,5 +23,5 @@ Considering over 50 million adults in the U.S. alone suffer from some form of ar
 
 -   The Osteoarthritis Action Alliance functions a bit differently than most other organizations in that it is actually a conglomerate of organizations. This Alliance works to advocate against osteoarthritis and reduce the suffering those who have it must bear. The OAA pushes organizations to work together to collectively raise awareness and share each other’s resources in the hope of improving each other’s organizations and demonstrating solidarity to get one step closer to eliminating osteoarthritis.
 
-![arthrits_care](![](https://tse2.mm.bing.net/th?id=OIP.QSoRO-iYWcPbrjPCC-grRQHaFj&pid=Api&P=0))
+![arthrits_care](https://tse2.mm.bing.net/th?id=OIP.QSoRO-iYWcPbrjPCC-grRQHaFj&pid=Api&P=0)
 
