@@ -113,6 +113,17 @@ const advocacyData = [
     imgSrc: `npf`,
     href: `https://www.psoriasis.org/`,
   },
+  {
+    cause: `Arthritis`,
+    org: `Arthritis Foundation`,
+    steps: [
+      `Serving as an Arthritis Ambassador bridging the Arthritis Foundation and Congress to fight for key issues in the fight against arthritis and raise the awareness of politicians`,
+      `Inviting friends and family to join you in the Jingle Bell Run which helps raise money for and attention towards the work of the Arthritis Foundation through a fun, festive event`,
+      `Joining the Arthritis Foundation Community Leadership Board near you to coordinate events at a local level, ensuring the work of the Arthritis Foundation reaches your community`,
+    ],
+    imgSrc: `af`,
+    href: `https://www.arthritis.org/home`,
+  },
 ]
 
 export default advocacyData

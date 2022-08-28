@@ -143,6 +143,18 @@ const podcastData = [
     imgSrc: 'medscapepsoriasis.png',
     href: 'https://podcasts.apple.com/us/podcast/medscape-indiscussion-psoriasis/id1617844704',
   },
+  {
+    title: 'Those Girls With Arthritis',
+    description: `Just your basic 20 something year olds navigating life with chronic illnesses. Join warriors, Bri & Beka, every Tuesday morning as they discuss life with a chronic illness, share their personal stories, and chat with other warriors.`,
+    imgSrc: 'thosegirlswitharthritis.png',
+    href: 'https://open.spotify.com/show/2X56S46NXQ781x2hddnF2Z?si=53IsXQ38SR6pcubw_0blaA&nd=1',
+  },
+  {
+    title: 'Arthritis Life',
+    description: `Arthritis life features real patient stories, expert advice, life hacks and more to help you feel more empowered and less alone. Host Cheryl Crow shares her insights from both as a rheumatoid arthritis patient for seventeen years and as an occupational therapist, a health profession that focuses on empowering people with health challenges to function in their daily lives.`,
+    imgSrc: 'arthritislife.png',
+    href: 'https://podcasts.apple.com/us/podcast/arthritis-life/id1519637317',
+  },
 ]
 
 export default podcastData
