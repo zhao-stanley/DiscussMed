@@ -4,8 +4,8 @@ import 'katex/dist/katex.css'
 import '@fontsource/inter/variable-full.css'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
-import NProgress from "nprogress"
-import Router from "next/router"
+import NProgress from 'nprogress'
+import Router from 'next/router'
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
@@ -14,8 +14,8 @@ import { ClientReload } from '@/components/ClientReload'
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
-NProgress.configure({ showSpinner: false });
-Router.onRouteChangeStart = url => {
+NProgress.configure({ showSpinner: false })
+Router.onRouteChangeStart = (url) => {
   NProgress.start()
 }
 
