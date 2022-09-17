@@ -2,7 +2,12 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
-const withPWA = require('next-pwa')
+const withPWA = require('next-pwa')({
+  dest: 'public',
+  register: true,
+  skipWaiting: true,
+  disable: process.env.NODE_ENV === 'development',
+})
 
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
@@ -57,12 +62,6 @@ const securityHeaders = [
 module.exports = withPWA(
   withBundleAnalyzer({
     reactStrictMode: true,
-    pwa: {
-      dest: 'public',
-      register: true,
-      skipWaiting: true,
-      disable: process.env.NODE_ENV === 'development',
-    },
     pageExtensions: ['js', 'jsx', 'md', 'mdx'],
     eslint: {
       dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
