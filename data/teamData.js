@@ -7,7 +7,7 @@ import kevin from '../public/static/images/team/kevin.png'
 import wayne from '../public/static/images/team/wayne.png'
 import xintong from '../public/static/images/team/xintong.jpg'
 import harini from '../public/static/images/team/harini.jpg'
-import madgeline from '../public/static/images/team/madgeline.jpg'
+import magdeline from '../public/static/images/team/magdeline.jpg'
 
 const teamData = [
   {
@@ -43,7 +43,7 @@ const teamData = [
   {
     name: 'Magdeline Gomez',
     role: 'content',
-    img: madgeline,
+    img: magdeline,
   },
   {
     name: 'Maxx Yung',
