@@ -41,7 +41,7 @@ const teamData = [
     img: wayne,
   },
   {
-    name: 'Magdeline Gomez',
+    name: 'Magdeline Gomes',
     role: 'content',
     img: magdeline,
   },
