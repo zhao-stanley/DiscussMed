@@ -1,8 +1,8 @@
 ---
 title: 'What Is Cerebral Palsy?'
 date: '10/1/22'
-tags: ['cerebral-palsy, 'what-is']
-authors: ['jake']
+tags: ['cerebral-palsy,'what-is']
+authors: ['magdeline']
 draft: false
 summary: 'This blog post explores what cerebral palsy is, its types, and its risk factors. Check this post out to learn about cerebral palsy on a general level.'
 ---
