@@ -31,6 +31,11 @@ const teamData = [
     img: placeholder,
   },
   {
+    name: 'Gwyneth Trinidad',
+    role: 'research',
+    img: placeholder,
+  },
+  {
     name: 'Kevin Zhang',
     role: 'content',
     img: kevin,
