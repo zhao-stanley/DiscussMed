@@ -1,6 +1,6 @@
 ---
 title: 'What Is Cerebral Palsy?'
-date: '10/1/22'
+date: '9/31/22'
 tags: ['cerebral-palsy','what-is']
 authors: ['magdeline']
 draft: false
