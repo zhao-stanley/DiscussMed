@@ -82,7 +82,7 @@ const LayoutWrapper = ({ children }) => {
                       </h2>
                     </div>
                     <NLink href={'/blog'} passHref={true}>
-                      <div className="w-min cursor-pointer select-none whitespace-nowrap rounded-xl bg-gradient-to-tr from-[#0F3443] to-[#34E89E] px-4 py-3 text-base font-semibold tracking-tight text-gray-50 shadow-md shadow-[#0F3443] transition-[5s] ease-linear hover:hue-rotate-15 active:scale-95 lg:px-6 lg:text-lg 2xl:text-xl">
+                      <div className="w-min cursor-pointer select-none whitespace-nowrap rounded-xl bg-gradient-to-tr from-[#1e7a9f] to-[#26c784] px-4 py-3 text-base font-semibold tracking-tight text-gray-50 shadow-md shadow-[#0F3443] transition-[5s] ease-linear hover:hue-rotate-15 active:scale-95 lg:px-6 lg:text-lg 2xl:text-xl">
                         Start Reading
                       </div>
                     </NLink>

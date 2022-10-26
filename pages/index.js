@@ -215,7 +215,7 @@ const Home = ({ posts }) => {
               </p>
             </div>
             <Link className="w-min" href={'https://forms.gle/QhEee9v2BiszeenM8'}>
-              <div className="w-min select-none whitespace-nowrap rounded-lg bg-gradient-to-tr from-[#0F3443] to-[#34E89E] px-6 py-3 text-lg font-semibold text-gray-50 shadow-md shadow-[#0F3443] transition-[5s] ease-linear hover:hue-rotate-15 active:scale-95">
+              <div className="w-min select-none whitespace-nowrap rounded-lg bg-gradient-to-tr from-[#1e7a9f] to-[#26c784] px-6 py-3 text-lg font-semibold text-gray-50 shadow-md shadow-[#0F3443] transition-[5s] ease-linear hover:hue-rotate-15 active:scale-95">
                 Apply Now
               </div>
             </Link>
@@ -233,7 +233,7 @@ const Home = ({ posts }) => {
               </p>
             </div>
             <Link className="w-min" href={'https://forms.gle/oPic8fVadWLP6u9i6'}>
-              <div className="select-none whitespace-nowrap rounded-lg bg-gradient-to-tr from-[#0F3443] to-[#34E89E] px-6 py-3 text-lg font-semibold text-gray-50 shadow-md shadow-[#0F3443] transition-[5s] ease-linear hover:hue-rotate-15 active:scale-95">
+              <div className="select-none whitespace-nowrap rounded-lg bg-gradient-to-tr from-[#1e7a9f] to-[#26c784] px-6 py-3 text-lg font-semibold text-gray-50 shadow-md shadow-[#0F3443] transition-[5s] ease-linear hover:hue-rotate-15 active:scale-95">
                 Apply Now
               </div>
             </Link>

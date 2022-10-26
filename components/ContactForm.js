@@ -73,7 +73,7 @@ export const ContactForm = () => {
           cols="50"
         />
         <button
-          className="w-min select-none whitespace-nowrap rounded-lg bg-gradient-to-tr from-[#0F3443] to-[#34E89E] px-6 py-3 text-lg font-semibold text-gray-50 shadow-md shadow-[#0F3443] transition-[5s] ease-linear hover:hue-rotate-15 active:scale-95"
+          className="w-min select-none whitespace-nowrap rounded-xl bg-gradient-to-tr from-[#1e7a9f] to-[#26c784] px-6 py-3 text-lg font-semibold text-gray-50 shadow-md shadow-[#0F3443] transition-[5s] ease-linear hover:hue-rotate-15 active:scale-95"
           onClick={() => {
             submitForm(values)
           }}
