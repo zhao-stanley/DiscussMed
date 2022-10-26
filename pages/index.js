@@ -109,7 +109,7 @@ const Home = ({ posts }) => {
       <SectionContainer cn={'h-auto bg-gray-900 dark:bg-gray-100'}>
         <div className="flex w-full flex-col items-center">
           <div className="mx-5 my-24 flex max-w-full flex-col gap-2 text-white dark:text-black">
-            <h1 className="text-5xl font-extrabold leading-9 tracking-tight xl:text-6xl">
+            <h1 className="text-4xl font-extrabold leading-9 tracking-tight xl:text-6xl">
               Our Mission
             </h1>
             <p className="text-lg text-gray-300 dark:text-gray-900 xl:mt-2 xl:text-xl">
@@ -139,7 +139,7 @@ const Home = ({ posts }) => {
             </div>
             <div className="my-24 flex h-auto flex-col gap-6">
               <div>
-                <h1 className="mb-2 text-5xl font-extrabold leading-9 tracking-tight text-white dark:text-black xl:text-6xl">
+                <h1 className="mb-2 text-4xl font-extrabold leading-9 tracking-tight text-white dark:text-black xl:text-6xl">
                   Our Team
                 </h1>
                 <h2 className="text-md text-gray-100 dark:text-gray-800 xl:text-lg">

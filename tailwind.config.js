@@ -15,6 +15,20 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      animation: {
+        float: 'float 5s ease-in-out infinite',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': {
+            transform: 'translateY(-1.5rem) rotate(30deg)',
+            
+          },
+          '50%': {
+            transform: 'translateY(-2.5rem) rotate(30deg)',
+          },
+        },
+      },
       spacing: {
         '9/16': '56.25%',
       },
