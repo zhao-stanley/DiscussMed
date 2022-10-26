@@ -90,11 +90,15 @@ const LayoutWrapper = ({ children }) => {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
-                    className="relative z-0 hidden h-auto w-48 lg:w-56 2xl:w-72 translate-y-[-1rem] rotate-[-15deg] animate-float sm:block lg:translate-y-[-2rem]"
+                    className="relative z-0 hidden h-auto w-48 translate-y-[-1rem] rotate-[-15deg] animate-float sm:block lg:w-56 lg:translate-y-[-2rem] 2xl:w-72"
                     fill="none"
                     viewBox="0 0 1000 1000"
                   >
-                    <path fill="url(#pattern0)" d="M0 0H1000V1000H0z" className="transition duration-500 hover:hue-rotate-180 hover:scale-95"></path>
+                    <path
+                      fill="url(#pattern0)"
+                      d="M0 0H1000V1000H0z"
+                      className="transition duration-500 hover:scale-95 hover:hue-rotate-180"
+                    ></path>
                     <defs>
                       <pattern
                         id="pattern0"
