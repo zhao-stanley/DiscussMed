@@ -8,6 +8,7 @@ import wayne from '../public/static/images/team/wayne.png'
 import xintong from '../public/static/images/team/xintong.jpg'
 import harini from '../public/static/images/team/harini.jpg'
 import magdeline from '../public/static/images/team/magdeline.jpg'
+import gwyneth from '../public/static/images/team/gwyneth.jpg'
 
 const teamData = [
   {
@@ -33,7 +34,7 @@ const teamData = [
   {
     name: 'Gwyneth Trinidad',
     role: 'research',
-    img: placeholder,
+    img: gwyneth,
   },
   {
     name: 'Kevin Zhang',
