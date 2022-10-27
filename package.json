@@ -1,5 +1,5 @@
 {
-  "name": "discussmed",
+  "name": "DiscussMed",
   "private": true,
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
