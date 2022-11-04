@@ -155,6 +155,18 @@ const podcastData = [
     imgSrc: 'arthritislife.png',
     href: 'https://podcasts.apple.com/us/podcast/arthritis-life/id1519637317',
   },
+  {
+    title: 'The Stomping on Cerebral Palsy Radio Show with DJ Ty',
+    description: `The stomping on Cerebral Palsy Radio Show with DJ Ty aims to bring awareness to Cerebral Palsy alongside educating the community on what it's like to live with such a condition. Bringing awareness to Cerebral Palsy 365 days a year..`,
+    imgSrc: 'socp.png',
+    href: 'https://podcasts.apple.com/us/podcast/the-stomping-on-cerebral-palsy-radio-show-with-dj-ty/id1596603356',
+  },
+  {
+    title: 'Let’s Talk CP',
+    description: `The Cerebral Palsy Foundation is connecting the Cerebral Palsy community one podcast at a time with “Let’s Talk CP” The new podcast series bringing you education, conversation, support and much more on a variety of topics. Join Jason Benetti, White Sox and ESPN sports announcer, and friends, as we get real with families, clinicians and researchers asking the questions you want to know about your CP journey.`,
+    imgSrc: 'letstalkcp.png',
+    href: 'https://podcasts.apple.com/us/podcast/lets-talk-cp/id1526711465',
+  },
 ]
 
 export default podcastData

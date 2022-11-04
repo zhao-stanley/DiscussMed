@@ -48,6 +48,20 @@ const interviewData = [
     href: 'VolberdingInterview.pdf',
     topic: 'HIV/AIDS',
   },
+  {
+    name: 'Felson',
+    description: `Dr. Felson is a professor at the Boston University School of Medicine and School of Public Health. He has a plethora of experience in both advocacy and in fighting arthritis through medicine and research. In terms of advocacy, Dr. Felson serves on the Medical Advisory Board of the Arthritis  Foundation and is a member of the Arthritis & Autoimmune Diseases Research Center. With the Arthritis Foundation, Dr. Felson leads the Clinical Studies Forum. He also partakes in Arthritis research having published over 85 different studies. His contribution to fighting arthritis has been recognized by the Arthritis Foundation as he is a two time recipient of the Lee C. Howley, Sr. Prize for Arthritis Science Service.`,
+    imgSrc: 'drfelson.jpg',
+    href: 'FelsonInterview.mp3',
+    topic: 'Arthritis'
+  },
+  {
+    name: 'Maitre',
+    description: `Dr. Maitre is a professor at Emory University. She is a board-certified neonatologist and research investigator who specializes in neurodevelopment of newborns. Dr. Maitre has extensive background in working with cerebral palsy. She is the Director of Early Development and Cerebral Palsy Research at Emory and on the Medical Advisory Board of the Cerebral Palsy Foundation, a leading organization in the fight against cerebral palsy. Dr. Maitre has also been involved in implementing caregiver-based motor learning programs for UNICEF and the WHO related to cerebral palsy.`,
+    imgSrc: 'drmaitre.jpg',
+    href: 'MaitreInterview.mp3',
+    topic: 'Cerebral Palsy'
+  },
 ]
 
 export default interviewData

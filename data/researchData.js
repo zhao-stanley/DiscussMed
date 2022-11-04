@@ -118,6 +118,23 @@ const researchData = [
       },
     ],
   },
+  {
+    topic: `Sepsis`,
+    links: [
+      {
+        name: `Management of sepsis`,
+        href: `http://loyce2008.free.fr/Microbiologie/Divers%20maladies%20infectieuses/management%20of%20sepsis%20NEJM%20review.pdf`,
+      },
+      {
+        name: `The pathophysiology and treatment of sepsis`,
+        href: `http://loyce2008.free.fr/Microbiologie/Divers%20maladies%20infectieuses/physio%20and%20treatment%20sepsis%20NEJM%20review.pdf`,
+      },
+      {
+        name: `Sepsis`,
+        href: `https://www.sciencedirect.com/science/article/abs/pii/S0002934307005566`,
+      },
+    ],
+  },
 ]
 
 export default researchData

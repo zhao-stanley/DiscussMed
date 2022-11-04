@@ -124,6 +124,17 @@ const advocacyData = [
     imgSrc: `af`,
     href: `https://www.arthritis.org/home`,
   },
+  {
+    cause: `Cerebral Palsy`,
+    org: `Cerebral Palsy Foundation`,
+    steps: [
+      `Proposing an idea for a volunteer driven fundraising initiative which the Cerebral Palsy Foundation can help bring to fruition`,
+      `Signing up on the mailing list to get up-to-date resources, news, and information regarding cerebral palsy and the Cerebral Palsy Foundation`,
+      `Donating to the Cerebral Palsy Foundation to ensure that they can continue to provide resources and fund research that will help advance the fight against cerebral palsy`,
+    ],
+    imgSrc: `cpf`,
+    href: `https://www.yourcpf.org/`,
+  },
 ]
 
 export default advocacyData
