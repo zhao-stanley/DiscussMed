@@ -6,21 +6,18 @@ authors: ['jake']
 draft: false
 summary: "In this blog post, we discuss what Crohn's disease is and its various types and causes. This post is a great place to build a foundational understanding of the disease."
 ---
+
 Crohn’s disease is an inflammatory disease that causes inflammation throughout the gastrointestinal tract. In other words, when one has Crohn's disease, the immune system is attacking the body’s tissue in the gastrointestinal tract (the passageway of the digestive system beginning at the mouth and ending at the anus) resulting in swelling. The inflammation that is characteristic of Crohn’s disease can occur anywhere throughout the gastrointestinal tract with the most common location of inflammation being the small intestine. The effects of Crohn’s disease can even extend beyond the gastrointestinal tract to other organs like the eyes and skin. Crohn’s disease is chronic but treatments can reduce its symptoms and effects and even bring about remission.
 
 ![crohn's-disease-diagram](https://www.drugwatch.com/wp-content/uploads/Crohns-Disease.jpg)
 
 There are various types of Crohn’s disease categorized based on where the inflammation of the gastrointestinal tract occurs; here are the main types:
 
--   Ileocolitis– Inflammation of the colon (the longest part of the large intestine) and the ileum (the last part of the small intestine) and caused by Crohn’s disease. Ileocolitis is the most common form of Crohn’s disease.
-    
--   Ileitis– Inflammation of only the ileum and may be caused by Crohn’s disease but could also be caused by other inflammatory diseases.
-    
--   Gastroduodenal Crohn’s– Inflammation of the stomach and duodenum (the beginning of the small intestine) and is caused by Crohn’s disease.
-    
--   Jejunoileitis– Inflammation of the jejunum (the upper half of the small intestine) and is caused by Crohn’s disease.
-    
--   Crohn’s (Granulomatous) Colitis– Inflammation of only the colon and is caused by Crohn’s disease
+- Ileocolitis– Inflammation of the colon (the longest part of the large intestine) and the ileum (the last part of the small intestine) and caused by Crohn’s disease. Ileocolitis is the most common form of Crohn’s disease.
+- Ileitis– Inflammation of only the ileum and may be caused by Crohn’s disease but could also be caused by other inflammatory diseases.
+- Gastroduodenal Crohn’s– Inflammation of the stomach and duodenum (the beginning of the small intestine) and is caused by Crohn’s disease.
+- Jejunoileitis– Inflammation of the jejunum (the upper half of the small intestine) and is caused by Crohn’s disease.
+- Crohn’s (Granulomatous) Colitis– Inflammation of only the colon and is caused by Crohn’s disease
 
 ![crohn's-disease-types](https://www.ibdrelief.com/uploads/resizes/types-of-crohns-disease_c1200x630.jpg)
 
