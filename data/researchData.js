@@ -135,6 +135,23 @@ const researchData = [
       },
     ],
   },
+  {
+    topic: `Gastric Cancer`,
+    links: [
+      {
+        name: `Treatment of gastric cancer`,
+        href: `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3930964/`,
+      },
+      {
+        name: `Gastric cancer: Descriptive epidemiology, risk factors, screening, and prevention`,
+        href: `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019373/`,
+      },
+      {
+        name: `Risk factors in gastric cancer`,
+        href: `https://www.iris.unina.it/retrieve/handle/11588/374890/94461/2010%20Eur%20Rev%20Med%20Pharm%20Sci%20Risk%20factors%20in%20GC.pdf`,
+      },
+    ],
+  },
 ]
 
 export default researchData

@@ -135,6 +135,17 @@ const advocacyData = [
     imgSrc: `cpf`,
     href: `https://www.yourcpf.org/`,
   },
+  {
+    cause: `Gastric Cancer`,
+    org: `Debbie’s Dream Foundation`,
+    steps: [
+      `Starting a school club using DDF’s handbook and guidance, raising awareness and fundraising for the fight against gastric cancer`,
+      `Participating in the DDF Youth Art Contest if indirectly or directly affected by cancer, creating art pertaining to one’s dream for a cancer-free world`,
+      `Attending the Stomach Cancer Capitol Hill Advocacy Day to show solidarity and support in pushing legislators to fund research that will bring an end to gastric cancer`,
+    ],
+    imgSrc: `ddf`,
+    href: `https://debbiesdream.org/`,
+  },
 ]
 
 export default advocacyData

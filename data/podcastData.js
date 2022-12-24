@@ -167,6 +167,18 @@ const podcastData = [
     imgSrc: 'letstalkcp.png',
     href: 'https://podcasts.apple.com/us/podcast/lets-talk-cp/id1526711465',
   },
+  {
+    title: 'Gastrointestinal Cancer Update',
+    description: `This series bridges the gap between research and patient care by providing medical oncologists and hematologists with ongoing access to the perspectives and opinions of national and international clinical investigators with expertise in gastrointestinal cancers.`,
+    imgSrc: 'gcu.png',
+    href: 'https://podcasts.apple.com/us/podcast/gastrointestinal-cancer-update/id160270314',
+  },
+  {
+    title: 'Gastric Cancer CancerCare Connect Education Workshops',
+    description: `CancerCare's free Connect Education Workshops are a way for people to learn about cancer-related issues from the convenience of their home or office. Leading experts in oncology provide the most up-to-date information in these workshops to help you and your loved ones better understand and cope with your cancer diagnosis, treatment options, quality-of-life concerns, treatment side effects, pain management, doctor-patient communication and other important topics.`,
+    imgSrc: 'ccgc.png',
+    href: 'https://podcasts.apple.com/us/podcast/gastric-cancer-cancercare-connect-education-workshops/id1463358045',
+  },
 ]
 
 export default podcastData
