@@ -20,4 +20,5 @@ Although insulin therapy comes in a variety of forms, they all have the same goa
 
   
 ![intensive-insulin-therapy](https://www.wellion.eu/fileadmin/user_upload/Insulin-Freisetzung_bei_intensivierter_konventioneller_Therapie_EN.png)
+
 **Additional treatments** that benefit those suffering from diabetes include eating healthy and exercising. In terms of eating healthy, it is recommended one cuts down on saturated fats, refined carbohydrates, and sweets. Exercising is also helpful as it lowers blood sugar levels, as during exercise, the sugar is being used for energy, causing it to be transported into cells.
