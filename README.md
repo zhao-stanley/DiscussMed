@@ -1,11 +1,12 @@
-<img src="/public/static/images/discussmed.svg"/>
+
 <br />
 <div align="center">
-  <h3 align="center">DiscussMed</h3>
+  <img width="50px" src="/public/static/images/discussmed.svg"/>
+  <h1 align="center">DiscussMed</h1>
 
-  <p align="center">
+  <h3 align="center">
     Making disease and disorder-related knowledge more accessible for everyone.
-  </p>
+  </h3>
 </div>
 
 <!-- LICENSE -->
