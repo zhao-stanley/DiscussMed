@@ -9,6 +9,7 @@ import xintong from '../public/static/images/team/xintong.jpg'
 import harini from '../public/static/images/team/harini.jpg'
 import magdeline from '../public/static/images/team/magdeline.jpg'
 import gwyneth from '../public/static/images/team/gwyneth.jpg'
+import paeto from '../public/static/images/team/paeto.jpg'
 
 const teamData = [
   {
@@ -35,6 +36,11 @@ const teamData = [
     name: 'Gwyneth Trinidad',
     role: 'research',
     img: gwyneth,
+  },
+  {
+    name: 'Paeto Wangweera',
+    role: 'research',
+    img: paeto,
   },
   {
     name: 'Kevin Zhang',
